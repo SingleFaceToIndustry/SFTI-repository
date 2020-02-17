@@ -88,6 +88,12 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 			</xsl:if>
 			<!-- Credit note type code -->
 			<xsl:if test="not($SourceIsInvoice)">
+				<!-- Invoice tax point date in credit note, located here-->
+				<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax/ram:TaxPointDate/udt:DateString">
+					<cbc:TaxPointDate>
+						<xsl:value-of select="sfti:CIIDateToXSDDate(rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[exists(ram:TaxPointDate)][1]/ram:TaxPointDate/udt:DateString/text())"/>
+					</cbc:TaxPointDate>
+				</xsl:if>
 				<cbc:CreditNoteTypeCode>
 					<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:TypeCode"/>
 				</cbc:CreditNoteTypeCode>
@@ -98,11 +104,13 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 					<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:ExchangedDocument/ram:IncludedNote/ram:Content"/>
 				</cbc:Note>
 			</xsl:if>
-			<!-- Invoice tax point date-->
-			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax/ram:TaxPointDate/udt:DateString">
-				<cbc:TaxPointDate>
-					<xsl:value-of select="sfti:CIIDateToXSDDate(rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[exists(ram:TaxPointDate)][1]/ram:TaxPointDate/udt:DateString/text())"/>
-				</cbc:TaxPointDate>
+			<!-- if invoice, then taxpoint date located here -->
+			<xsl:if test="$SourceIsInvoice">
+				<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax/ram:TaxPointDate/udt:DateString">
+					<cbc:TaxPointDate>
+						<xsl:value-of select="sfti:CIIDateToXSDDate(rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[exists(ram:TaxPointDate)][1]/ram:TaxPointDate/udt:DateString/text())"/>
+					</cbc:TaxPointDate>
+				</xsl:if>
 			</xsl:if>
 			<!-- Invoice currency code-->
 			<cbc:DocumentCurrencyCode>
@@ -127,7 +135,7 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 				</cbc:BuyerReference>
 			</xsl:if>
 			<!-- Invoice period -->
-			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod">
+			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod or /rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode">
 				<cac:InvoicePeriod>
 					<!-- Invoice period start-->
 					<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:BillingSpecifiedPeriod/ram:StartDateTime/udt:DateTimeString">
@@ -144,7 +152,14 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 					<!-- Value added tax point date code -->
 					<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode">
 						<cbc:DescriptionCode>
-							<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode"/>
+							<xsl:choose>
+								<xsl:when test="fn:normalize-space(/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode)='5'">3</xsl:when>
+								<xsl:when test="fn:normalize-space(/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode)='29'">35</xsl:when>
+								<xsl:when test="fn:normalize-space(/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode)='72'">432</xsl:when>
+								<xsl:otherwise>
+									<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:ApplicableTradeTax[1]/ram:DueDateTypeCode"/>
+								</xsl:otherwise>
+							</xsl:choose>
 						</cbc:DescriptionCode>
 					</xsl:if>
 				</cac:InvoicePeriod>
@@ -197,13 +212,15 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 					</cbc:ID>
 				</cac:ReceiptDocumentReference>
 			</xsl:if>
-			<!-- TENDER OR LOT REFERENCE -->
+			<!-- TENDER OR LOT REFERENCE in invoice-->
+			<xsl:if test="$SourceIsInvoice">
 			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:AdditionalReferencedDocument[ram:TypeCode='50']">
 				<cac:OriginatorDocumentReference>
 					<cbc:ID>
 						<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:AdditionalReferencedDocument[ram:TypeCode='50']/ram:IssuerAssignedID"/>
 					</cbc:ID>
 				</cac:OriginatorDocumentReference>
+			</xsl:if>
 			</xsl:if>
 			<!--Contract REFERENCE -->
 			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:ContractReferencedDocument">
@@ -247,10 +264,9 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 							</xsl:if>
 							<xsl:if test="ram:URIID or ram:AttachmentBinaryObject">
 								<cac:Attachment>
-									<xsl:if test="ram:URIID">
 									<xsl:if test="ram:AttachmentBinaryObject">
 										<!--Attached document  -->
-										<cbc:EmbeddedDocumentBinaryObject mimeCode="text/csv" filename="testfilnamn.abc">
+										<cbc:EmbeddedDocumentBinaryObject>
 											<xsl:attribute name="mimeCode"><xsl:value-of select="ram:AttachmentBinaryObject/@mimeCode"/></xsl:attribute>
 											<xsl:if test="ram:AttachmentBinaryObject/@filename">
 												<xsl:attribute name="filename"><xsl:value-of select="ram:AttachmentBinaryObject/@filename"/></xsl:attribute>
@@ -258,28 +274,52 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 											<xsl:value-of select="ram:AttachmentBinaryObject"/>
 										</cbc:EmbeddedDocumentBinaryObject>
 									</xsl:if>
-																			<!--External document location  -->
+									<!--External document location  -->
+									<xsl:if test="ram:URIID">
 										<cac:ExternalReference>
 											<cbc:URI>
 												<xsl:value-of select="ram:URIID"/>
 											</cbc:URI>
 										</cac:ExternalReference>
 									</xsl:if>
-
 								</cac:Attachment>
 							</xsl:if>
 						</cac:AdditionalDocumentReference>
 					</xsl:when>
 				</xsl:choose>
 			</xsl:for-each>
-			<!-- Project Reference -->
-			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:SpecifiedProcuringProject">
-				<cac:ProjectReference>
-					<cbc:ID>
-						<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:SpecifiedProcuringProject/ram:ID"/>
-					</cbc:ID>
-				</cac:ProjectReference>
+			<!-- Project Reference (located here in invoices -->
+			<xsl:if test="$SourceIsInvoice">
+				<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:SpecifiedProcuringProject">
+					<cac:ProjectReference>
+						<cbc:ID>
+							<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:SpecifiedProcuringProject/ram:ID"/>
+						</cbc:ID>
+					</cac:ProjectReference>
+				</xsl:if>
 			</xsl:if>
+			<!-- Project Reference (located here in creditnote -->
+			<xsl:if test="not($SourceIsInvoice)">
+				<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:SpecifiedProcuringProject">
+					<cac:AdditionalDocumentReference>
+						<cbc:ID>
+							<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:SpecifiedProcuringProject/ram:ID"/>
+						</cbc:ID>
+						<cbc:DocumentTypeCode>50</cbc:DocumentTypeCode>
+					</cac:AdditionalDocumentReference>
+				</xsl:if>
+			</xsl:if>
+			
+			<!-- TENDER OR LOT REFERENCE located here in creditnote -->
+			<xsl:if test="not($SourceIsInvoice)">
+			<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:AdditionalReferencedDocument[ram:TypeCode='50']">
+				<cac:OriginatorDocumentReference>
+					<cbc:ID>
+						<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeAgreement/ram:AdditionalReferencedDocument[ram:TypeCode='50']/ram:IssuerAssignedID"/>
+					</cbc:ID>
+				</cac:OriginatorDocumentReference>
+			</xsl:if>		
+			</xsl:if>	
 			<!-- Seller -->
 			<cac:AccountingSupplierParty>
 				<cac:Party>
@@ -323,6 +363,16 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 								<xsl:value-of select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeDelivery/ram:ShipToTradeParty/ram:ID"/>
 							</cbc:ID>
 						</xsl:if>
+						<xsl:for-each select="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeDelivery/ram:ShipToTradeParty/ram:GlobalID">
+							<cac:PartyIdentification>
+								<cbc:ID>
+									<xsl:if test="./@schemeID">
+										<xsl:attribute name="schemeID"><xsl:value-of select="./@schemeID"/></xsl:attribute>
+									</xsl:if>
+									<xsl:value-of select="."/>
+								</cbc:ID>
+							</cac:PartyIdentification>
+						</xsl:for-each>
 						<!--DELIVER TO ADDRESS  -->
 						<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeDelivery/ram:ShipToTradeParty/ram:PostalTradeAddress">
 							<cac:Address>
@@ -361,10 +411,28 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 						</xsl:if>
 					</xsl:if>
 					<!--Remittance information  -->
-					<xsl:if test="ram:PaymentReference">
+					<xsl:if test="../ram:PaymentReference">
 						<cbc:PaymentID>
-							<xsl:value-of select="ram:PaymentReference"/>
+							<xsl:value-of select="../ram:PaymentReference"/>
 						</cbc:PaymentID>
+					</xsl:if>
+					<!-- Card -->
+					<xsl:if test="ram:ApplicableTradeSettlementFinancialCard">
+						<!-- Card payment -->
+						<cac:CardAccount>
+							<!-- Payment card primary account number -->
+							<cbc:PrimaryAccountNumberID>
+								<xsl:value-of select="ram:ApplicableTradeSettlementFinancialCard/ram:ID"/>
+							</cbc:PrimaryAccountNumberID>
+							<!-- NetworkID was added in ISO 16931-3-2 syntax binding:   -->
+							<cbc:NetworkID>NA</cbc:NetworkID>
+							<!-- Payment card holder name -->
+							<xsl:if test="ram:ApplicableTradeSettlementFinancialCard/ram:CardholderName">
+								<cbc:HolderName>
+									<xsl:value-of select="ram:ApplicableTradeSettlementFinancialCard/ram:CardholderName"/>
+								</cbc:HolderName>
+							</xsl:if>
+						</cac:CardAccount>
 					</xsl:if>
 					<!-- Credit transfer -->
 					<xsl:if test="ram:PayeePartyCreditorFinancialAccount">
@@ -384,9 +452,9 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 								</xsl:when>
 							</xsl:choose>
 							<!-- Payment account name -->
-							<xsl:if test="ram:AccountName">
+							<xsl:if test="ram:PayeePartyCreditorFinancialAccount/ram:AccountName">
 								<cbc:Name>
-									<xsl:value-of select="ram:AccountName"/>
+									<xsl:value-of select="ram:PayeePartyCreditorFinancialAccount/ram:AccountName"/>
 								</cbc:Name>
 							</xsl:if>
 							<!-- Payment service provider identifier -->
@@ -398,24 +466,6 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 								</cac:FinancialInstitutionBranch>
 							</xsl:if>
 						</cac:PayeeFinancialAccount>
-					</xsl:if>
-					<!-- Card -->
-					<xsl:if test="ram:ApplicableTradeSettlementFinancialCard">
-						<!-- Card payment -->
-						<cac:CardAccount>
-							<!-- Payment card primary account number -->
-							<cbc:PrimaryAccountNumberID>
-								<xsl:value-of select="ram:ApplicableTradeSettlementFinancialCard/ram:ID"/>
-							</cbc:PrimaryAccountNumberID>
-							<!-- NetworkID was added in ISO 16931-3-2 syntax binding:   -->
-							<cbc:NetworkID>NA</cbc:NetworkID>
-							<!-- Payment card holder name -->
-							<xsl:if test="ram:ApplicableTradeSettlementFinancialCard/ram:CardholderName">
-								<cbc:HolderName>
-									<xsl:value-of select="ram:ApplicableTradeSettlementFinancialCard/ram:CardholderName"/>
-								</cbc:HolderName>
-							</xsl:if>
-						</cac:CardAccount>
 					</xsl:if>
 					<!-- Debit transfer -->
 					<xsl:if test="ram:PayerPartyDebtorFinancialAccount">
@@ -579,6 +629,9 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 						<cac:DocumentReference>
 							<!-- Invoice line object identifier -->
 							<cbc:ID>
+								<xsl:if test="ram:SpecifiedLineTradeSettlement/ram:AdditionalReferencedDocument/ram:ReferenceTypeCode">
+									<xsl:attribute name="schemeID"><xsl:value-of select="ram:SpecifiedLineTradeSettlement/ram:AdditionalReferencedDocument/ram:ReferenceTypeCode"/></xsl:attribute>
+								</xsl:if>
 								<xsl:value-of select="ram:SpecifiedLineTradeSettlement/ram:AdditionalReferencedDocument/ram:IssuerAssignedID"/>
 							</cbc:ID>
 							<!-- Must be 130-->
@@ -635,7 +688,7 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 						<!-- Item country of origin -->
 						<xsl:for-each select="ram:SpecifiedTradeProduct/ram:DesignatedProductClassification">
 							<cac:CommodityClassification>
-								<cbc:ItemClassificationCode listID="ram:ClassCode/@listID" listVersionID="ram:ClassCode/@listVersionID">
+								<cbc:ItemClassificationCode>
 									<xsl:if test="ram:ClassCode/@listID">
 										<xsl:attribute name="listID"><xsl:value-of select="ram:ClassCode/@listID"/></xsl:attribute>
 									</xsl:if>
@@ -656,6 +709,18 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 								<cbc:Percent>
 									<xsl:value-of select="ram:SpecifiedLineTradeSettlement/ram:ApplicableTradeTax/ram:RateApplicablePercent"/>
 								</cbc:Percent>
+							</xsl:if>
+							<!-- Invoiced item VAT exemption reason code -->
+							<xsl:if test="ram:SpecifiedLineTradeSettlement/ram:ApplicableTradeTax/ram:ExemptionReasonCode">
+								<cbc:TaxExemptionReasonCode>
+									<xsl:value-of select="ram:SpecifiedLineTradeSettlement/ram:ApplicableTradeTax/ram:ExemptionReasonCode"/>
+								</cbc:TaxExemptionReasonCode>
+							</xsl:if>
+							<!-- Invoiced item VAT exemption reason  -->
+							<xsl:if test="ram:SpecifiedLineTradeSettlement/ram:ApplicableTradeTax/ram:ExemptionReason">
+								<cbc:TaxExemptionReason>
+									<xsl:value-of select="ram:SpecifiedLineTradeSettlement/ram:ApplicableTradeTax/ram:ExemptionReason"/>
+								</cbc:TaxExemptionReason>
 							</xsl:if>
 							<cac:TaxScheme>
 								<cbc:ID>VAT</cbc:ID>
@@ -783,14 +848,16 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 			</cac:PartyIdentification>
 		</xsl:for-each>
 		<!-- party identifier global -->
-		<xsl:if test="ram:GlobalID">
+		<xsl:for-each select="ram:GlobalID">
 			<cac:PartyIdentification>
 				<cbc:ID>
-					<xsl:attribute name="schemeID"><xsl:value-of select="ram:GlobalID/@schemeID"/></xsl:attribute>
-					<xsl:value-of select="ram:GlobalID"/>
+					<xsl:if test="./@schemeID">
+						<xsl:attribute name="schemeID"><xsl:value-of select="./@schemeID"/></xsl:attribute>
+					</xsl:if>
+					<xsl:value-of select="."/>
 				</cbc:ID>
 			</cac:PartyIdentification>
-		</xsl:if>
+		</xsl:for-each>
 		<!-- Bank assigned creditor identifier -->
 		<xsl:if test="/rsm:CrossIndustryInvoice/rsm:SupplyChainTradeTransaction/ram:ApplicableHeaderTradeSettlement/ram:CreditorReferenceID and (local-name()='SellerTradeParty' or local-name()='PayeeTradeParty')">
 			<cac:PartyIdentification>
@@ -869,6 +936,19 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 				</xsl:if>
 			</cac:PartyLegalEntity>
 		</xsl:if>
+		<xsl:if test="fn:local-name(.) = 'PayeeTradeParty'">
+			<cac:PartyLegalEntity>
+				<!--  legal registration identifier-->
+				<xsl:if test="ram:SpecifiedLegalOrganization/ram:ID">
+					<cbc:CompanyID>
+						<xsl:if test="ram:SpecifiedLegalOrganization/ram:ID/@schemeID">
+							<xsl:attribute name="schemeID"><xsl:value-of select="ram:SpecifiedLegalOrganization/ram:ID/@schemeID"/></xsl:attribute>
+						</xsl:if>
+						<xsl:value-of select="ram:SpecifiedLegalOrganization/ram:ID"/>
+					</cbc:CompanyID>
+				</xsl:if>
+			</cac:PartyLegalEntity>
+		</xsl:if>
 		<xsl:if test="ram:DefinedTradeContact">
 			<!-- contact point -->
 			<cac:Contact>
@@ -905,7 +985,7 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 				</cbc:AllowanceChargeReasonCode>
 			</xsl:if>
 			<!-- Document level charge/allowance reason-->
-			<xsl:if test="ram:ReasonCode">
+			<xsl:if test="ram:Reason">
 				<cbc:AllowanceChargeReason>
 					<xsl:value-of select="ram:Reason"/>
 				</cbc:AllowanceChargeReason>
@@ -945,6 +1025,18 @@ N.B. The use of UBLExtension will result in warnings when validating the UBL Inv
 				<cbc:Percent>
 					<xsl:value-of select="ram:RateApplicablePercent"/>
 				</cbc:Percent>
+			</xsl:if>
+			<!-- VAT exemption reason code -->
+			<xsl:if test="ram:ExemptionReasonCode">
+				<cbc:TaxExemptionReasonCode>
+					<xsl:value-of select="ram:ExemptionReasonCode"/>
+				</cbc:TaxExemptionReasonCode>
+			</xsl:if>
+			<!-- VAT exemption reason  -->
+			<xsl:if test="ram:ExemptionReason">
+				<cbc:TaxExemptionReason>
+					<xsl:value-of select="ram:ExemptionReason"/>
+				</cbc:TaxExemptionReason>
 			</xsl:if>
 			<cac:TaxScheme>
 				<cbc:ID>VAT</cbc:ID>
