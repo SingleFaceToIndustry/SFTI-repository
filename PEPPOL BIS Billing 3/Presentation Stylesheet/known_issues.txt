@@ -1,0 +1,7 @@
+This is a list of known issues to be reviewed for upcoming releases.
+
+1. "ADDITIONAL SUPPORTING DOCUMENTS" lead text is not shown in invoices during specific combinations.
+ 
+2. Suggestion to move the summary rows led text closer to the values on the rignt side of the document
+
+3. Suggestion to right-align quantity column in lines table
