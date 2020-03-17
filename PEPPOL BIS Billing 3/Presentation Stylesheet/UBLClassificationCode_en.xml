@@ -33,6 +33,24 @@
 		<Row>
 			
 			<Value ColumnRef="code">
+				<SimpleValue>AA</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Product version number</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>CG</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Commodity grouping</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
 				<SimpleValue>EF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
@@ -48,16 +66,42 @@
 				<SimpleValue>Buyer's internal product group code</SimpleValue>
 			</Value>
 		</Row>
+			<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>MN</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Model number</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
 				<SimpleValue>HS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Harmonised system/INTRASTAT</SimpleValue>
+				<SimpleValue>Harmonised system</SimpleValue>
 			</Value>
 		</Row>
-		
+			<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>SN</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Serial number</SimpleValue>
+			</Value>
+		</Row>
+			<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>NB</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Batch number</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
@@ -67,7 +111,15 @@
 				<SimpleValue>Product/service identification number/ UNSPSC</SimpleValue>
 			</Value>
 		</Row>
-		
+			<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>SSU</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Supplier assigned classification</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
@@ -85,6 +137,15 @@
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>CPV</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>STL</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>ATC classification system</SimpleValue>
 			</Value>
 		</Row>
 		
@@ -107,7 +168,24 @@
 				<SimpleValue>EU Combined Nomenclature</SimpleValue>
 			</Value>
 		</Row>
-		
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>TSS</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Price grouping code</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>TST</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>UNSPSC</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">

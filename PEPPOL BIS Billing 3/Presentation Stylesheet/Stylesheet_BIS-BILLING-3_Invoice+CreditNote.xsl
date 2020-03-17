@@ -757,8 +757,8 @@ padding-top:1vw;
 								<xsl:if test="cac:InvoicePeriod/cbc:DescriptionCode != ''">
 										<br/>
 										<b>
-											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-8'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-										</b>
+											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-8'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
+										</b>&#160;
 										<xsl:call-template name="UBLDescriptionCode"><xsl:with-param name="Code" select="cac:InvoicePeriod/cbc:DescriptionCode"/></xsl:call-template> [<xsl:value-of select="cac:InvoicePeriod/cbc:DescriptionCode"/>]
 <br/>
 								</xsl:if>
@@ -1143,7 +1143,7 @@ padding-top:1vw;
 									<xsl:value-of select="cbc:UUID"/>
 									<br/>
 								</xsl:if>
-								<xsl:if test="cac:AccountingSupplierParty/cac:Party/cbc:EndpointID">
+								
 									<br/>
 								
 										<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-34'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
@@ -1152,8 +1152,7 @@ padding-top:1vw;
 											[<xsl:value-of select="cac:AccountingSupplierParty/cac:Party/cbc:EndpointID/@schemeID"/>]
 										</xsl:if>
 								
-								</xsl:if>
-								<xsl:if test="cac:AccountingCustomerParty/cac:Party/cbc:EndpointID">
+								
 									<br/>
 								
 										<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-49'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
@@ -1161,8 +1160,8 @@ padding-top:1vw;
 										<xsl:if test="cac:AccountingCustomerParty/cac:Party/cbc:EndpointID/@schemeID !='' ">
 										[<xsl:value-of select="cac:AccountingCustomerParty/cac:Party/cbc:EndpointID/@schemeID"/>]
 										</xsl:if>
-										</xsl:if>
-					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.3<br/>
+									
+					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.5<br/>
 					This stylesheet uses business terms defined the CEN/EN16931-1 and is reproduced with permission from CEN. CEN bears no liability from the use of the content and implementation of this stylesheet and gives no warranties expressed or implied for any purpose.<br/>
 					
 					

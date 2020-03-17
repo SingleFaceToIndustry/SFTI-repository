@@ -27,7 +27,7 @@
 				<SimpleValue>3</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Fakturadatum</SimpleValue>
+				<SimpleValue>Fakturans datum</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -36,7 +36,7 @@
 				<SimpleValue>35</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Leveransdatum (verkligt)</SimpleValue>
+				<SimpleValue>Leveransens datum</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -45,7 +45,7 @@
 				<SimpleValue>432</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Betalningsdatum</SimpleValue>
+				<SimpleValue>Betalningens datum</SimpleValue>
 			</Value>
 		</Row>
 	</SimpleCodeList>

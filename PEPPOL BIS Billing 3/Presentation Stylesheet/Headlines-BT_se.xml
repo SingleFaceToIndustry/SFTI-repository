@@ -18,7 +18,7 @@
 	<BusinessTerm id="BT-7">
 		<TermName>Momsdatum</TermName>
 	</BusinessTerm>
-		<BusinessTerm id="BT-8">
+	<BusinessTerm id="BT-8">
 		<TermName>Kod för momsdatum</TermName>
 	</BusinessTerm>
 	<BusinessTerm id="BT-9">
@@ -48,7 +48,6 @@
 	<BusinessTerm id="BT-17">
 		<TermName>Upphandlingsreferens</TermName>
 	</BusinessTerm>
-		
 	<BusinessTerm id="BT-18">
 		<TermName>Faktureringsobjekt</TermName>
 	</BusinessTerm>
@@ -66,11 +65,9 @@
 	</BusinessTerm>
 	<BusinessTerm id="BT-23">
 		<TermName>Business process type</TermName>
-
 	</BusinessTerm>
 	<BusinessTerm id="BT-24">
 		<TermName>Specification identifier</TermName>
-
 	</BusinessTerm>
 	<BusinessTerm id="BG-3">
 		<TermName>TIDIGARE FAKTURA</TermName>
@@ -81,7 +78,7 @@
 	<BusinessTerm id="BT-26">
 		<TermName>Datum för tidigare faktura</TermName>
 	</BusinessTerm>
-		<BusinessTerm id="BG-4">
+	<BusinessTerm id="BG-4">
 		<TermName>SÄLJAREN</TermName>
 	</BusinessTerm>
 	<BusinessTerm id="BT-27">
@@ -153,7 +150,7 @@
 	</BusinessTerm>
 	<BusinessTerm id="BT-46">
 		<TermName>Köparens ID</TermName>
-			<DisplayName>ID</DisplayName>
+		<DisplayName>ID</DisplayName>
 	</BusinessTerm>
 	<BusinessTerm id="BT-46-1">
 		<TermName>Typ av ID</TermName>
@@ -233,7 +230,7 @@
 	</BusinessTerm>
 	<BusinessTerm id="BT-71">
 		<TermName>Leveransplats (ID)</TermName>
-		<DispalyName>LeveransplatsID</DispalyName>
+		<DisplayName>LeveransplatsID</DisplayName>
 	</BusinessTerm>
 	<BusinessTerm id="BT-71-1">
 		<TermName>Typ av ID</TermName>
@@ -280,7 +277,6 @@
 	</BusinessTerm>
 	<BusinessTerm id="BT-86-1">
 		<TermName>NätverksID för kontokort</TermName>
-
 	</BusinessTerm>
 	<BusinessTerm id="BG-18">
 		<TermName>KORTINFORMATION</TermName>
@@ -554,7 +550,7 @@
 		<TermName>Typ</TermName>
 	</BusinessTerm>
 	<BusinessTerm id="BT-158">
-		<TermName>Klassifiseringskod</TermName>
+		<TermName>Klassificeringskod</TermName>
 	</BusinessTerm>
 	<BusinessTerm id="BT-158-1">
 		<TermName>Typ</TermName>

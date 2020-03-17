@@ -27,7 +27,7 @@
 				<SimpleValue>1</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Instrument not defined</SimpleValue>
+				<SimpleValue>Ej definierad</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -108,7 +108,7 @@
 				<SimpleValue>10</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>In cash</SimpleValue>
+				<SimpleValue>Kontant</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -288,7 +288,7 @@
 				<SimpleValue>30</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Credit transfer</SimpleValue>
+				<SimpleValue>Kontobaserad betalning</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -450,7 +450,7 @@
 				<SimpleValue>48</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Bank card</SimpleValue>
+				<SimpleValue>Bankkort</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -459,7 +459,7 @@
 				<SimpleValue>49</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Direct debit</SimpleValue>
+				<SimpleValue>Autogiro</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -504,7 +504,7 @@
 				<SimpleValue>54</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Credit card</SimpleValue>
+				<SimpleValue>Kreditkort</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -513,7 +513,7 @@
 				<SimpleValue>55</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Debit card</SimpleValue>
+				<SimpleValue>Debetkort</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -540,7 +540,7 @@
 				<SimpleValue>58</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>SEPA credit transfer</SimpleValue>
+				<SimpleValue>SEPA betalning</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -549,7 +549,7 @@
 				<SimpleValue>59</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>SEPA direct debit</SimpleValue>
+				<SimpleValue>SEPA autogiro</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -756,7 +756,7 @@
 				<SimpleValue>ZZZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Mutually defined</SimpleValue>
+				<SimpleValue>Bilateralt avtalat</SimpleValue>
 			</Value>
 		</Row>
 	</SimpleCodeList>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
-	<Identification xmlns="">
+	<Identification>
 		<ShortName>UNECE</ShortName>
 		<Version></Version>
 		<CanonicalUri></CanonicalUri>
 		<CanonicalVersionUri></CanonicalVersionUri>
 	</Identification>
-	<ColumnSet xmlns="">
+	<ColumnSet>
 		<Column Id="code" Use="required">
 			<ShortName>Code</ShortName>
 			<Data Type="string"/>
@@ -20,7 +20,7 @@
 			<ColumnRef Ref="code"/>
 		</Key>
 	</ColumnSet>
-	<SimpleCodeList xmlns="">
+	<SimpleCodeList>
 		<Row>
 			
 			<Value ColumnRef="code">
@@ -666,7 +666,7 @@
 				<SimpleValue>5B</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>batch</SimpleValue>
+				<SimpleValue>sats</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -1468,7 +1468,7 @@
 				<SimpleValue>ANN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>year</SimpleValue>
+				<SimpleValue>år</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -2953,7 +2953,7 @@
 				<SimpleValue>C62</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>one</SimpleValue>
+				<SimpleValue>styck</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3376,7 +3376,7 @@
 				<SimpleValue>CLT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>centilitre</SimpleValue>
+				<SimpleValue>centiliter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3385,7 +3385,7 @@
 				<SimpleValue>CMK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>square centimetre</SimpleValue>
+				<SimpleValue>kvadratcentimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3394,7 +3394,7 @@
 				<SimpleValue>CMQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>cubic centimetre</SimpleValue>
+				<SimpleValue>kubikcentimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -3403,7 +3403,7 @@
 				<SimpleValue>CMT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>centimetre</SimpleValue>
+				<SimpleValue>centimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -4168,7 +4168,7 @@
 				<SimpleValue>DAY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>day</SimpleValue>
+				<SimpleValue>dag</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -4222,7 +4222,7 @@
 				<SimpleValue>DLT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>decilitre</SimpleValue>
+				<SimpleValue>deciliter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -4240,7 +4240,7 @@
 				<SimpleValue>DMK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>square decimetre</SimpleValue>
+				<SimpleValue>kvadratdecimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -4258,7 +4258,7 @@
 				<SimpleValue>DMQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>cubic decimetre</SimpleValue>
+				<SimpleValue>kubikdecimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -4267,7 +4267,7 @@
 				<SimpleValue>DMT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>decimetre</SimpleValue>
+				<SimpleValue>decimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -4366,7 +4366,7 @@
 				<SimpleValue>DZN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>dozen</SimpleValue>
+				<SimpleValue>dussin</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -5194,7 +5194,7 @@
 				<SimpleValue>EA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>each</SimpleValue>
+				<SimpleValue>styck</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -8056,7 +8056,7 @@
 				<SimpleValue>H87</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>piece</SimpleValue>
+				<SimpleValue>styck</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -8218,7 +8218,7 @@
 				<SimpleValue>HGM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>hectogram</SimpleValue>
+				<SimpleValue>hektogram</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -8308,7 +8308,7 @@
 				<SimpleValue>HUR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>hour</SimpleValue>
+				<SimpleValue>timma</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -10196,7 +10196,7 @@
 				<SimpleValue>KMT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>kilometre</SimpleValue>
+				<SimpleValue>kilometer</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -10376,7 +10376,7 @@
 				<SimpleValue>KWH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>kilowatt hour</SimpleValue>
+				<SimpleValue>kilowattimma</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -11330,7 +11330,7 @@
 				<SimpleValue>LS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>lump sum</SimpleValue>
+				<SimpleValue>fastpris</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -11348,7 +11348,7 @@
 				<SimpleValue>LTR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>litre</SimpleValue>
+				<SimpleValue>liter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12365,7 +12365,7 @@
 				<SimpleValue>MIN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>minute [unit of time]</SimpleValue>
+				<SimpleValue>minut</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12401,7 +12401,7 @@
 				<SimpleValue>MLT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>millilitre</SimpleValue>
+				<SimpleValue>milliliter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12428,7 +12428,7 @@
 				<SimpleValue>MMT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>millimetre</SimpleValue>
+				<SimpleValue>millimeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12446,7 +12446,7 @@
 				<SimpleValue>MON</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>month</SimpleValue>
+				<SimpleValue>månad</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12491,7 +12491,7 @@
 				<SimpleValue>MTK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>square metre</SimpleValue>
+				<SimpleValue>kvadratmeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12500,7 +12500,7 @@
 				<SimpleValue>MTQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>cubic metre</SimpleValue>
+				<SimpleValue>kubikmeter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12509,7 +12509,7 @@
 				<SimpleValue>MTR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>metre</SimpleValue>
+				<SimpleValue>meter</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -12536,7 +12536,7 @@
 				<SimpleValue>MWH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>megawatt hour (1000 kW.h)</SimpleValue>
+				<SimpleValue>megawattimma</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -13386,7 +13386,7 @@
 				<SimpleValue>NAR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>number of articles</SimpleValue>
+				<SimpleValue>styck</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -14502,7 +14502,7 @@
 				<SimpleValue>PR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>pair</SimpleValue>
+				<SimpleValue>par</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -14853,7 +14853,7 @@
 				<SimpleValue>QAN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>quarter (of a year)</SimpleValue>
+				<SimpleValue>kvartal</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -15042,7 +15042,7 @@
 				<SimpleValue>SEC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>second [unit of time]</SimpleValue>
+				<SimpleValue>sekund</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -15285,7 +15285,7 @@
 				<SimpleValue>TNE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>tonne (metric ton)</SimpleValue>
+				<SimpleValue>Ton</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -15474,7 +15474,7 @@
 				<SimpleValue>WEE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>week</SimpleValue>
+				<SimpleValue>vecka</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -15588,7 +15588,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>1A</SimpleValue>
+				<SimpleValue>X1A</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, steel</SimpleValue>
@@ -15597,7 +15597,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>1B</SimpleValue>
+				<SimpleValue>X1B</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, aluminium</SimpleValue>
@@ -15606,7 +15606,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>1D</SimpleValue>
+				<SimpleValue>X1D</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, plywood</SimpleValue>
@@ -15615,7 +15615,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>1F</SimpleValue>
+				<SimpleValue>X1F</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Container, flexible</SimpleValue>
@@ -15624,7 +15624,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>1G</SimpleValue>
+				<SimpleValue>X1G</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, fibre</SimpleValue>
@@ -15633,7 +15633,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>1W</SimpleValue>
+				<SimpleValue>X1W</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, wooden</SimpleValue>
@@ -15642,7 +15642,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>2C</SimpleValue>
+				<SimpleValue>X2C</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Barrel, wooden</SimpleValue>
@@ -15651,7 +15651,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>3A</SimpleValue>
+				<SimpleValue>X3A</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, steel</SimpleValue>
@@ -15660,7 +15660,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>3H</SimpleValue>
+				<SimpleValue>X3H</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, plastic</SimpleValue>
@@ -15669,7 +15669,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>43</SimpleValue>
+				<SimpleValue>X43</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, super bulk</SimpleValue>
@@ -15678,7 +15678,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>44</SimpleValue>
+				<SimpleValue>X44</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, polybag</SimpleValue>
@@ -15687,7 +15687,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4A</SimpleValue>
+				<SimpleValue>X4A</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, steel</SimpleValue>
@@ -15696,7 +15696,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4B</SimpleValue>
+				<SimpleValue>X4B</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, aluminium</SimpleValue>
@@ -15705,7 +15705,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4C</SimpleValue>
+				<SimpleValue>X4C</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, natural wood</SimpleValue>
@@ -15714,7 +15714,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4D</SimpleValue>
+				<SimpleValue>X4D</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, plywood</SimpleValue>
@@ -15723,7 +15723,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4F</SimpleValue>
+				<SimpleValue>X4F</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, reconstituted wood</SimpleValue>
@@ -15732,7 +15732,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4G</SimpleValue>
+				<SimpleValue>X4G</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, fibreboard</SimpleValue>
@@ -15741,7 +15741,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>4H</SimpleValue>
+				<SimpleValue>X4H</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, plastic</SimpleValue>
@@ -15750,7 +15750,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>5H</SimpleValue>
+				<SimpleValue>X5H</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, woven plastic</SimpleValue>
@@ -15759,7 +15759,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>5L</SimpleValue>
+				<SimpleValue>X5L</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, textile</SimpleValue>
@@ -15768,7 +15768,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>5M</SimpleValue>
+				<SimpleValue>X5M</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, paper</SimpleValue>
@@ -15777,7 +15777,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>6H</SimpleValue>
+				<SimpleValue>X6H</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle</SimpleValue>
@@ -15786,7 +15786,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>6P</SimpleValue>
+				<SimpleValue>X6P</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle</SimpleValue>
@@ -15795,7 +15795,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>7A</SimpleValue>
+				<SimpleValue>X7A</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, car</SimpleValue>
@@ -15804,7 +15804,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>7B</SimpleValue>
+				<SimpleValue>X7B</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, wooden</SimpleValue>
@@ -15813,7 +15813,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>8A</SimpleValue>
+				<SimpleValue>X8A</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, wooden</SimpleValue>
@@ -15822,7 +15822,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>8B</SimpleValue>
+				<SimpleValue>X8B</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, wooden</SimpleValue>
@@ -15831,7 +15831,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>8C</SimpleValue>
+				<SimpleValue>X8C</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bundle, wooden</SimpleValue>
@@ -15840,7 +15840,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AA</SimpleValue>
+				<SimpleValue>XAA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic</SimpleValue>
@@ -15849,7 +15849,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AB</SimpleValue>
+				<SimpleValue>XAB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, fibre</SimpleValue>
@@ -15858,7 +15858,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AC</SimpleValue>
+				<SimpleValue>XAC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, paper</SimpleValue>
@@ -15867,7 +15867,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AD</SimpleValue>
+				<SimpleValue>XAD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, wooden</SimpleValue>
@@ -15876,16 +15876,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AE</SimpleValue>
+				<SimpleValue>XAE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Aerosol</SimpleValue>
+				<SimpleValue>sprayburk</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AF</SimpleValue>
+				<SimpleValue>XAF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, modular, collars 80cms * 60cms</SimpleValue>
@@ -15894,7 +15894,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AG</SimpleValue>
+				<SimpleValue>XAG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, shrinkwrapped</SimpleValue>
@@ -15903,7 +15903,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AH</SimpleValue>
+				<SimpleValue>XAH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, 100cms * 110cms</SimpleValue>
@@ -15912,7 +15912,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AI</SimpleValue>
+				<SimpleValue>XAI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Clamshell</SimpleValue>
@@ -15921,7 +15921,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AJ</SimpleValue>
+				<SimpleValue>XAJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Cone</SimpleValue>
@@ -15930,7 +15930,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AL</SimpleValue>
+				<SimpleValue>XAL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Ball</SimpleValue>
@@ -15939,16 +15939,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AM</SimpleValue>
+				<SimpleValue>XAM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Ampoule, non-protected</SimpleValue>
+				<SimpleValue>ampull</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AP</SimpleValue>
+				<SimpleValue>XAP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Ampoule, protected</SimpleValue>
@@ -15957,7 +15957,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AT</SimpleValue>
+				<SimpleValue>XAT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Atomizer</SimpleValue>
@@ -15966,16 +15966,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>AV</SimpleValue>
+				<SimpleValue>XAV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Capsule</SimpleValue>
+				<SimpleValue>kapsel</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>B4</SimpleValue>
+				<SimpleValue>XB4</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Belt</SimpleValue>
@@ -15984,16 +15984,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BA</SimpleValue>
+				<SimpleValue>XBA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Barrel</SimpleValue>
+				<SimpleValue>fat</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BB</SimpleValue>
+				<SimpleValue>XBB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bobbin</SimpleValue>
@@ -16002,7 +16002,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BC</SimpleValue>
+				<SimpleValue>XBC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bottlecrate / bottlerack</SimpleValue>
@@ -16011,25 +16011,25 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BD</SimpleValue>
+				<SimpleValue>XBD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Board</SimpleValue>
+				<SimpleValue>brätte</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BE</SimpleValue>
+				<SimpleValue>XBE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Bundle</SimpleValue>
+				<SimpleValue>bunt</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BF</SimpleValue>
+				<SimpleValue>XBF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Balloon, non-protected</SimpleValue>
@@ -16038,16 +16038,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BG</SimpleValue>
+				<SimpleValue>XBG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Bag</SimpleValue>
+				<SimpleValue>påse</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BH</SimpleValue>
+				<SimpleValue>XBH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bunch</SimpleValue>
@@ -16056,7 +16056,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BI</SimpleValue>
+				<SimpleValue>XBI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bin</SimpleValue>
@@ -16065,34 +16065,34 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BJ</SimpleValue>
+				<SimpleValue>XBJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Bucket</SimpleValue>
+				<SimpleValue>hink</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BK</SimpleValue>
+				<SimpleValue>XBK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Basket</SimpleValue>
+				<SimpleValue>korg</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BL</SimpleValue>
+				<SimpleValue>XBL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Bale, compressed</SimpleValue>
+				<SimpleValue>bal</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BM</SimpleValue>
+				<SimpleValue>XBM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Basin</SimpleValue>
@@ -16101,7 +16101,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BN</SimpleValue>
+				<SimpleValue>XBN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bale, non-compressed</SimpleValue>
@@ -16110,16 +16110,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BO</SimpleValue>
+				<SimpleValue>XBO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Bottle, non-protected, cylindrical</SimpleValue>
+				<SimpleValue>flaska</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BP</SimpleValue>
+				<SimpleValue>XBP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Balloon, protected</SimpleValue>
@@ -16128,7 +16128,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BQ</SimpleValue>
+				<SimpleValue>XBQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bottle, protected cylindrical</SimpleValue>
@@ -16137,7 +16137,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BR</SimpleValue>
+				<SimpleValue>XBR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bar</SimpleValue>
@@ -16146,7 +16146,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BS</SimpleValue>
+				<SimpleValue>XBS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bottle, non-protected, bulbous</SimpleValue>
@@ -16155,7 +16155,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BT</SimpleValue>
+				<SimpleValue>XBT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bolt</SimpleValue>
@@ -16164,7 +16164,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BU</SimpleValue>
+				<SimpleValue>XBU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Butt</SimpleValue>
@@ -16173,7 +16173,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BV</SimpleValue>
+				<SimpleValue>XBV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bottle, protected bulbous</SimpleValue>
@@ -16182,7 +16182,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BW</SimpleValue>
+				<SimpleValue>XBW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, for liquids</SimpleValue>
@@ -16191,16 +16191,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BX</SimpleValue>
+				<SimpleValue>XBX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Box</SimpleValue>
+				<SimpleValue>låda</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BY</SimpleValue>
+				<SimpleValue>XBY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Board, in bundle/bunch/truss</SimpleValue>
@@ -16209,7 +16209,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>BZ</SimpleValue>
+				<SimpleValue>XBZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bars, in bundle/bunch/truss</SimpleValue>
@@ -16218,16 +16218,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CA</SimpleValue>
+				<SimpleValue>XCA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Can, rectangular</SimpleValue>
+				<SimpleValue>dunk</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CB</SimpleValue>
+				<SimpleValue>XCB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, beer</SimpleValue>
@@ -16236,7 +16236,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CC</SimpleValue>
+				<SimpleValue>XCC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Churn</SimpleValue>
@@ -16245,7 +16245,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CD</SimpleValue>
+				<SimpleValue>XCD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Can, with handle and spout</SimpleValue>
@@ -16254,7 +16254,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CE</SimpleValue>
+				<SimpleValue>XCE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Creel</SimpleValue>
@@ -16263,7 +16263,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CF</SimpleValue>
+				<SimpleValue>XCF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Coffer</SimpleValue>
@@ -16272,16 +16272,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CG</SimpleValue>
+				<SimpleValue>XCG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Cage</SimpleValue>
+				<SimpleValue>bur</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CH</SimpleValue>
+				<SimpleValue>XCH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Chest</SimpleValue>
@@ -16290,7 +16290,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CI</SimpleValue>
+				<SimpleValue>XCI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Canister</SimpleValue>
@@ -16299,7 +16299,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CJ</SimpleValue>
+				<SimpleValue>XCJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Coffin</SimpleValue>
@@ -16308,7 +16308,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CK</SimpleValue>
+				<SimpleValue>XCK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Cask</SimpleValue>
@@ -16317,7 +16317,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CL</SimpleValue>
+				<SimpleValue>XCL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Coil</SimpleValue>
@@ -16326,16 +16326,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CM</SimpleValue>
+				<SimpleValue>XCM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Card</SimpleValue>
+				<SimpleValue>skiva</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CN</SimpleValue>
+				<SimpleValue>XCN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Container, not otherwise specified as transport equipment</SimpleValue>
@@ -16344,7 +16344,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CO</SimpleValue>
+				<SimpleValue>XCO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Carboy, non-protected</SimpleValue>
@@ -16353,7 +16353,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CP</SimpleValue>
+				<SimpleValue>XCP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Carboy, protected</SimpleValue>
@@ -16362,7 +16362,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CQ</SimpleValue>
+				<SimpleValue>XCQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Cartridge</SimpleValue>
@@ -16371,43 +16371,43 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CR</SimpleValue>
+				<SimpleValue>XCR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Crate</SimpleValue>
+				<SimpleValue>back</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CS</SimpleValue>
+				<SimpleValue>XCS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Case</SimpleValue>
+				<SimpleValue>fodral</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CT</SimpleValue>
+				<SimpleValue>XCT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Carton</SimpleValue>
+				<SimpleValue>ask</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CU</SimpleValue>
+				<SimpleValue>XCU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Cup</SimpleValue>
+				<SimpleValue>bägare</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CV</SimpleValue>
+				<SimpleValue>XCV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Cover</SimpleValue>
@@ -16416,16 +16416,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CW</SimpleValue>
+				<SimpleValue>XCW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Cage, roll</SimpleValue>
+				<SimpleValue>rullbur</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CX</SimpleValue>
+				<SimpleValue>XCX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Can, cylindrical</SimpleValue>
@@ -16434,16 +16434,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CY</SimpleValue>
+				<SimpleValue>XCY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Cylinder</SimpleValue>
+				<SimpleValue>cylinder</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>CZ</SimpleValue>
+				<SimpleValue>XCZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Canvas</SimpleValue>
@@ -16452,7 +16452,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DA</SimpleValue>
+				<SimpleValue>XDA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, multiple layer, plastic</SimpleValue>
@@ -16461,7 +16461,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DB</SimpleValue>
+				<SimpleValue>XDB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, multiple layer, wooden</SimpleValue>
@@ -16470,7 +16470,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DC</SimpleValue>
+				<SimpleValue>XDC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, multiple layer, cardboard</SimpleValue>
@@ -16479,7 +16479,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DG</SimpleValue>
+				<SimpleValue>XDG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Cage, Commonwealth Handling Equipment Pool (CHEP)</SimpleValue>
@@ -16488,7 +16488,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DH</SimpleValue>
+				<SimpleValue>XDH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, Commonwealth Handling Equipment Pool (CHEP), Eurobox</SimpleValue>
@@ -16497,7 +16497,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DI</SimpleValue>
+				<SimpleValue>XDI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, iron</SimpleValue>
@@ -16506,7 +16506,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DJ</SimpleValue>
+				<SimpleValue>XDJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Demijohn, non-protected</SimpleValue>
@@ -16515,7 +16515,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DK</SimpleValue>
+				<SimpleValue>XDK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, bulk, cardboard</SimpleValue>
@@ -16524,7 +16524,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DL</SimpleValue>
+				<SimpleValue>XDL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, bulk, plastic</SimpleValue>
@@ -16533,7 +16533,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DM</SimpleValue>
+				<SimpleValue>XDM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, bulk, wooden</SimpleValue>
@@ -16542,7 +16542,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DN</SimpleValue>
+				<SimpleValue>XDN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Dispenser</SimpleValue>
@@ -16551,7 +16551,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DP</SimpleValue>
+				<SimpleValue>XDP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Demijohn, protected</SimpleValue>
@@ -16560,7 +16560,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DR</SimpleValue>
+				<SimpleValue>XDR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum</SimpleValue>
@@ -16569,7 +16569,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DS</SimpleValue>
+				<SimpleValue>XDS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, one layer no cover, plastic</SimpleValue>
@@ -16578,7 +16578,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DT</SimpleValue>
+				<SimpleValue>XDT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, one layer no cover, wooden</SimpleValue>
@@ -16587,7 +16587,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DU</SimpleValue>
+				<SimpleValue>XDU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, one layer no cover, polystyrene</SimpleValue>
@@ -16596,7 +16596,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DV</SimpleValue>
+				<SimpleValue>XDV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, one layer no cover, cardboard</SimpleValue>
@@ -16605,7 +16605,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DW</SimpleValue>
+				<SimpleValue>XDW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, two layers no cover, plastic tray</SimpleValue>
@@ -16614,7 +16614,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DX</SimpleValue>
+				<SimpleValue>XDX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, two layers no cover, wooden</SimpleValue>
@@ -16623,7 +16623,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>DY</SimpleValue>
+				<SimpleValue>XDY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, two layers no cover, cardboard</SimpleValue>
@@ -16632,7 +16632,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EC</SimpleValue>
+				<SimpleValue>XEC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, plastic</SimpleValue>
@@ -16641,7 +16641,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ED</SimpleValue>
+				<SimpleValue>XED</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, with pallet base</SimpleValue>
@@ -16650,7 +16650,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EE</SimpleValue>
+				<SimpleValue>XEE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, with pallet base, wooden</SimpleValue>
@@ -16659,7 +16659,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EF</SimpleValue>
+				<SimpleValue>XEF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, with pallet base, cardboard</SimpleValue>
@@ -16668,7 +16668,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EG</SimpleValue>
+				<SimpleValue>XEG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, with pallet base, plastic</SimpleValue>
@@ -16677,7 +16677,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EH</SimpleValue>
+				<SimpleValue>XEH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, with pallet base, metal</SimpleValue>
@@ -16686,7 +16686,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EI</SimpleValue>
+				<SimpleValue>XEI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, isothermic</SimpleValue>
@@ -16695,16 +16695,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>EN</SimpleValue>
+				<SimpleValue>XEN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Envelope</SimpleValue>
+				<SimpleValue>kuvert</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FB</SimpleValue>
+				<SimpleValue>XFB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Flexibag</SimpleValue>
@@ -16713,7 +16713,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FC</SimpleValue>
+				<SimpleValue>XFC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, fruit</SimpleValue>
@@ -16722,7 +16722,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FD</SimpleValue>
+				<SimpleValue>XFD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, framed</SimpleValue>
@@ -16731,7 +16731,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FE</SimpleValue>
+				<SimpleValue>XFE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Flexitank</SimpleValue>
@@ -16740,7 +16740,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FI</SimpleValue>
+				<SimpleValue>XFI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Firkin</SimpleValue>
@@ -16749,7 +16749,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FL</SimpleValue>
+				<SimpleValue>XFL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Flask</SimpleValue>
@@ -16758,7 +16758,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FO</SimpleValue>
+				<SimpleValue>XFO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Footlocker</SimpleValue>
@@ -16767,7 +16767,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FP</SimpleValue>
+				<SimpleValue>XFP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Filmpack</SimpleValue>
@@ -16776,7 +16776,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FR</SimpleValue>
+				<SimpleValue>XFR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Frame</SimpleValue>
@@ -16785,7 +16785,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FT</SimpleValue>
+				<SimpleValue>XFT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Foodtainer</SimpleValue>
@@ -16794,7 +16794,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FW</SimpleValue>
+				<SimpleValue>XFW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Cart, flatbed</SimpleValue>
@@ -16803,7 +16803,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>FX</SimpleValue>
+				<SimpleValue>XFX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, flexible container</SimpleValue>
@@ -16812,7 +16812,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GB</SimpleValue>
+				<SimpleValue>XGB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bottle, gas</SimpleValue>
@@ -16821,7 +16821,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GI</SimpleValue>
+				<SimpleValue>XGI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Girder</SimpleValue>
@@ -16830,7 +16830,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GL</SimpleValue>
+				<SimpleValue>XGL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Container, gallon</SimpleValue>
@@ -16839,7 +16839,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GR</SimpleValue>
+				<SimpleValue>XGR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, glass</SimpleValue>
@@ -16848,7 +16848,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GU</SimpleValue>
+				<SimpleValue>XGU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, containing horizontally stacked flat items</SimpleValue>
@@ -16857,7 +16857,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GY</SimpleValue>
+				<SimpleValue>XGY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, gunny</SimpleValue>
@@ -16866,7 +16866,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>GZ</SimpleValue>
+				<SimpleValue>XGZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Girders, in bundle/bunch/truss</SimpleValue>
@@ -16875,7 +16875,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>HA</SimpleValue>
+				<SimpleValue>XHA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Basket, with handle, plastic</SimpleValue>
@@ -16884,7 +16884,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>HB</SimpleValue>
+				<SimpleValue>XHB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Basket, with handle, wooden</SimpleValue>
@@ -16893,7 +16893,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>HC</SimpleValue>
+				<SimpleValue>XHC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Basket, with handle, cardboard</SimpleValue>
@@ -16902,7 +16902,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>HG</SimpleValue>
+				<SimpleValue>XHG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Hogshead</SimpleValue>
@@ -16911,7 +16911,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>HN</SimpleValue>
+				<SimpleValue>XHN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Hanger</SimpleValue>
@@ -16920,7 +16920,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>HR</SimpleValue>
+				<SimpleValue>XHR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Hamper</SimpleValue>
@@ -16929,7 +16929,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IA</SimpleValue>
+				<SimpleValue>XIA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, display, wooden</SimpleValue>
@@ -16938,7 +16938,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IB</SimpleValue>
+				<SimpleValue>XIB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, display, cardboard</SimpleValue>
@@ -16947,7 +16947,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IC</SimpleValue>
+				<SimpleValue>XIC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, display, plastic</SimpleValue>
@@ -16956,7 +16956,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ID</SimpleValue>
+				<SimpleValue>XID</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, display, metal</SimpleValue>
@@ -16965,7 +16965,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IE</SimpleValue>
+				<SimpleValue>XIE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, show</SimpleValue>
@@ -16974,7 +16974,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IF</SimpleValue>
+				<SimpleValue>XIF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, flow</SimpleValue>
@@ -16983,7 +16983,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IG</SimpleValue>
+				<SimpleValue>XIG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, paper wrapped</SimpleValue>
@@ -16992,7 +16992,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IH</SimpleValue>
+				<SimpleValue>XIH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, plastic</SimpleValue>
@@ -17001,7 +17001,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IK</SimpleValue>
+				<SimpleValue>XIK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Package, cardboard, with bottle grip-holes</SimpleValue>
@@ -17010,7 +17010,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IL</SimpleValue>
+				<SimpleValue>XIL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tray, rigid, lidded stackable (CEN TS 14482:2002)</SimpleValue>
@@ -17019,7 +17019,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IN</SimpleValue>
+				<SimpleValue>XIN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Ingot</SimpleValue>
@@ -17028,7 +17028,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>IZ</SimpleValue>
+				<SimpleValue>XIZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Ingots, in bundle/bunch/truss</SimpleValue>
@@ -17037,7 +17037,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>JB</SimpleValue>
+				<SimpleValue>XJB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, jumbo</SimpleValue>
@@ -17046,7 +17046,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>JC</SimpleValue>
+				<SimpleValue>XJC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, rectangular</SimpleValue>
@@ -17055,25 +17055,25 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>JG</SimpleValue>
+				<SimpleValue>XJG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Jug</SimpleValue>
+				<SimpleValue>kanna</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>JR</SimpleValue>
+				<SimpleValue>XJR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Jar</SimpleValue>
+				<SimpleValue>burk</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>JT</SimpleValue>
+				<SimpleValue>XJT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jutebag</SimpleValue>
@@ -17082,7 +17082,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>JY</SimpleValue>
+				<SimpleValue>XJY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, cylindrical</SimpleValue>
@@ -17091,7 +17091,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>KG</SimpleValue>
+				<SimpleValue>XKG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Keg</SimpleValue>
@@ -17100,7 +17100,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>KI</SimpleValue>
+				<SimpleValue>XKI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Kit</SimpleValue>
@@ -17109,7 +17109,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>LE</SimpleValue>
+				<SimpleValue>XLE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Luggage</SimpleValue>
@@ -17118,7 +17118,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>LG</SimpleValue>
+				<SimpleValue>XLG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Log</SimpleValue>
@@ -17127,7 +17127,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>LT</SimpleValue>
+				<SimpleValue>XLT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Lot</SimpleValue>
@@ -17136,7 +17136,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>LU</SimpleValue>
+				<SimpleValue>XLU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Lug</SimpleValue>
@@ -17145,7 +17145,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>LV</SimpleValue>
+				<SimpleValue>XLV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Liftvan</SimpleValue>
@@ -17154,7 +17154,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>LZ</SimpleValue>
+				<SimpleValue>XLZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Logs, in bundle/bunch/truss</SimpleValue>
@@ -17163,7 +17163,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MA</SimpleValue>
+				<SimpleValue>XMA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, metal</SimpleValue>
@@ -17172,7 +17172,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MB</SimpleValue>
+				<SimpleValue>XMB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, multiply</SimpleValue>
@@ -17181,7 +17181,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MC</SimpleValue>
+				<SimpleValue>XMC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, milk</SimpleValue>
@@ -17190,7 +17190,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ME</SimpleValue>
+				<SimpleValue>XME</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Container, metal</SimpleValue>
@@ -17199,7 +17199,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MR</SimpleValue>
+				<SimpleValue>XMR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, metal</SimpleValue>
@@ -17208,7 +17208,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MS</SimpleValue>
+				<SimpleValue>XMS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Sack, multi-wall</SimpleValue>
@@ -17217,7 +17217,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MT</SimpleValue>
+				<SimpleValue>XMT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Mat</SimpleValue>
@@ -17226,7 +17226,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MW</SimpleValue>
+				<SimpleValue>XMW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, plastic wrapped</SimpleValue>
@@ -17235,7 +17235,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>MX</SimpleValue>
+				<SimpleValue>XMX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Matchbox</SimpleValue>
@@ -17244,7 +17244,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NA</SimpleValue>
+				<SimpleValue>XNA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Not available</SimpleValue>
@@ -17253,16 +17253,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NE</SimpleValue>
+				<SimpleValue>XNE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Unpacked or unpackaged</SimpleValue>
+				<SimpleValue>oförpackad</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NF</SimpleValue>
+				<SimpleValue>XNF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Unpacked or unpackaged, single unit</SimpleValue>
@@ -17271,7 +17271,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NG</SimpleValue>
+				<SimpleValue>XNG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Unpacked or unpackaged, multiple units</SimpleValue>
@@ -17280,7 +17280,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NS</SimpleValue>
+				<SimpleValue>XNS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Nest</SimpleValue>
@@ -17289,16 +17289,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NT</SimpleValue>
+				<SimpleValue>XNT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Net</SimpleValue>
+				<SimpleValue>nät</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NU</SimpleValue>
+				<SimpleValue>XNU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Net, tube, plastic</SimpleValue>
@@ -17307,7 +17307,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>NV</SimpleValue>
+				<SimpleValue>XNV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Net, tube, textile</SimpleValue>
@@ -17316,7 +17316,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OA</SimpleValue>
+				<SimpleValue>XOA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, CHEP 40 cm x 60 cm</SimpleValue>
@@ -17325,7 +17325,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OB</SimpleValue>
+				<SimpleValue>XOB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, CHEP 80 cm x 120 cm</SimpleValue>
@@ -17334,7 +17334,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OC</SimpleValue>
+				<SimpleValue>XOC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, CHEP 100 cm x 120 cm</SimpleValue>
@@ -17343,7 +17343,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OD</SimpleValue>
+				<SimpleValue>XOD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, AS 4068-1993</SimpleValue>
@@ -17352,7 +17352,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OE</SimpleValue>
+				<SimpleValue>XOE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, ISO T11</SimpleValue>
@@ -17361,7 +17361,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OF</SimpleValue>
+				<SimpleValue>XOF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Platform, unspecified weight or dimension</SimpleValue>
@@ -17370,7 +17370,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OK</SimpleValue>
+				<SimpleValue>XOK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Block</SimpleValue>
@@ -17379,7 +17379,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OT</SimpleValue>
+				<SimpleValue>XOT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Octabin</SimpleValue>
@@ -17388,7 +17388,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>OU</SimpleValue>
+				<SimpleValue>XOU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Container, outer</SimpleValue>
@@ -17397,7 +17397,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>P2</SimpleValue>
+				<SimpleValue>XP2</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pan</SimpleValue>
@@ -17406,7 +17406,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PA</SimpleValue>
+				<SimpleValue>XPA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Packet</SimpleValue>
@@ -17415,16 +17415,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PB</SimpleValue>
+				<SimpleValue>XPB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Pallet, box Combined open-ended box and pallet</SimpleValue>
+				<SimpleValue>pallbox</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PC</SimpleValue>
+				<SimpleValue>XPC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Parcel</SimpleValue>
@@ -17433,7 +17433,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PD</SimpleValue>
+				<SimpleValue>XPD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, modular, collars 80cms * 100cms</SimpleValue>
@@ -17442,7 +17442,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PE</SimpleValue>
+				<SimpleValue>XPE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, modular, collars 80cms * 120cms</SimpleValue>
@@ -17451,7 +17451,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PF</SimpleValue>
+				<SimpleValue>XPF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pen</SimpleValue>
@@ -17460,7 +17460,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PG</SimpleValue>
+				<SimpleValue>XPG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Plate</SimpleValue>
@@ -17469,7 +17469,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PH</SimpleValue>
+				<SimpleValue>XPH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pitcher</SimpleValue>
@@ -17478,7 +17478,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PI</SimpleValue>
+				<SimpleValue>XPI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pipe</SimpleValue>
@@ -17487,7 +17487,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PJ</SimpleValue>
+				<SimpleValue>XPJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Punnet</SimpleValue>
@@ -17496,16 +17496,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PK</SimpleValue>
+				<SimpleValue>XPK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Package</SimpleValue>
+				<SimpleValue>paket</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PL</SimpleValue>
+				<SimpleValue>XPL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pail</SimpleValue>
@@ -17514,7 +17514,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PN</SimpleValue>
+				<SimpleValue>XPN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Plank</SimpleValue>
@@ -17523,7 +17523,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PO</SimpleValue>
+				<SimpleValue>XPO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pouch</SimpleValue>
@@ -17532,16 +17532,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PP</SimpleValue>
+				<SimpleValue>XPP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Piece</SimpleValue>
+				<SimpleValue>styck</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PR</SimpleValue>
+				<SimpleValue>XPR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Receptacle, plastic</SimpleValue>
@@ -17550,7 +17550,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PT</SimpleValue>
+				<SimpleValue>XPT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pot</SimpleValue>
@@ -17559,16 +17559,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PU</SimpleValue>
+				<SimpleValue>XPU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Tray</SimpleValue>
+				<SimpleValue>bricka</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PV</SimpleValue>
+				<SimpleValue>XPV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pipes, in bundle/bunch/truss</SimpleValue>
@@ -17577,16 +17577,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PX</SimpleValue>
+				<SimpleValue>XPX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Pallet</SimpleValue>
+				<SimpleValue>pall</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PY</SimpleValue>
+				<SimpleValue>XPY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Plates, in bundle/bunch/truss</SimpleValue>
@@ -17595,7 +17595,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>PZ</SimpleValue>
+				<SimpleValue>XPZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Planks, in bundle/bunch/truss</SimpleValue>
@@ -17604,7 +17604,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QA</SimpleValue>
+				<SimpleValue>XQA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, steel, non-removable head</SimpleValue>
@@ -17613,7 +17613,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QB</SimpleValue>
+				<SimpleValue>XQB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, steel, removable head</SimpleValue>
@@ -17622,7 +17622,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QC</SimpleValue>
+				<SimpleValue>XQC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, aluminium, non-removable head</SimpleValue>
@@ -17631,7 +17631,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QD</SimpleValue>
+				<SimpleValue>XQD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, aluminium, removable head</SimpleValue>
@@ -17640,7 +17640,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QF</SimpleValue>
+				<SimpleValue>XQF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, plastic, non-removable head</SimpleValue>
@@ -17649,7 +17649,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QG</SimpleValue>
+				<SimpleValue>XQG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Drum, plastic, removable head</SimpleValue>
@@ -17658,7 +17658,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QH</SimpleValue>
+				<SimpleValue>XQH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Barrel, wooden, bung type</SimpleValue>
@@ -17667,7 +17667,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QJ</SimpleValue>
+				<SimpleValue>XQJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Barrel, wooden, removable head</SimpleValue>
@@ -17676,7 +17676,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QK</SimpleValue>
+				<SimpleValue>XQK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, steel, non-removable head</SimpleValue>
@@ -17685,7 +17685,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QL</SimpleValue>
+				<SimpleValue>XQL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, steel, removable head</SimpleValue>
@@ -17694,7 +17694,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QM</SimpleValue>
+				<SimpleValue>XQM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, plastic, non-removable head</SimpleValue>
@@ -17703,7 +17703,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QN</SimpleValue>
+				<SimpleValue>XQN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Jerrican, plastic, removable head</SimpleValue>
@@ -17712,7 +17712,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QP</SimpleValue>
+				<SimpleValue>XQP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, wooden, natural wood, ordinary</SimpleValue>
@@ -17721,7 +17721,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QQ</SimpleValue>
+				<SimpleValue>XQQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, wooden, natural wood, with sift proof walls</SimpleValue>
@@ -17730,7 +17730,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QR</SimpleValue>
+				<SimpleValue>XQR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, plastic, expanded</SimpleValue>
@@ -17739,7 +17739,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>QS</SimpleValue>
+				<SimpleValue>XQS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Box, plastic, solid</SimpleValue>
@@ -17748,7 +17748,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RD</SimpleValue>
+				<SimpleValue>XRD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Rod</SimpleValue>
@@ -17757,7 +17757,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RG</SimpleValue>
+				<SimpleValue>XRG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Ring</SimpleValue>
@@ -17766,7 +17766,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RJ</SimpleValue>
+				<SimpleValue>XRJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Rack, clothing hanger</SimpleValue>
@@ -17775,34 +17775,34 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RK</SimpleValue>
+				<SimpleValue>XRK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Rack</SimpleValue>
+				<SimpleValue>ställning</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RL</SimpleValue>
+				<SimpleValue>XRL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Reel</SimpleValue>
+				<SimpleValue>rulle</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RO</SimpleValue>
+				<SimpleValue>XRO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Roll</SimpleValue>
+				<SimpleValue>rullpack</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RT</SimpleValue>
+				<SimpleValue>XRT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Rednet</SimpleValue>
@@ -17811,7 +17811,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>RZ</SimpleValue>
+				<SimpleValue>XRZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Rods, in bundle/bunch/truss</SimpleValue>
@@ -17820,16 +17820,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SA</SimpleValue>
+				<SimpleValue>XSA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Sack</SimpleValue>
+				<SimpleValue>säck</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SB</SimpleValue>
+				<SimpleValue>XSB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Slab</SimpleValue>
@@ -17838,7 +17838,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SC</SimpleValue>
+				<SimpleValue>XSC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Crate, shallow</SimpleValue>
@@ -17847,7 +17847,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SD</SimpleValue>
+				<SimpleValue>XSD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Spindle</SimpleValue>
@@ -17856,7 +17856,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SE</SimpleValue>
+				<SimpleValue>XSE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Sea-chest</SimpleValue>
@@ -17865,7 +17865,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SH</SimpleValue>
+				<SimpleValue>XSH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Sachet</SimpleValue>
@@ -17874,7 +17874,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SI</SimpleValue>
+				<SimpleValue>XSI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Skid</SimpleValue>
@@ -17883,16 +17883,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SK</SimpleValue>
+				<SimpleValue>XSK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Case, skeleton</SimpleValue>
+				<SimpleValue>gallerpall</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SL</SimpleValue>
+				<SimpleValue>XSL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Slipsheet</SimpleValue>
@@ -17901,7 +17901,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SM</SimpleValue>
+				<SimpleValue>XSM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Sheetmetal</SimpleValue>
@@ -17910,7 +17910,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SO</SimpleValue>
+				<SimpleValue>XSO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Spool</SimpleValue>
@@ -17919,7 +17919,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SP</SimpleValue>
+				<SimpleValue>XSP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Sheet, plastic wrapping</SimpleValue>
@@ -17928,7 +17928,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SS</SimpleValue>
+				<SimpleValue>XSS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Case, steel</SimpleValue>
@@ -17937,16 +17937,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ST</SimpleValue>
+				<SimpleValue>XST</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Sheet</SimpleValue>
+				<SimpleValue>ark</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SU</SimpleValue>
+				<SimpleValue>XSU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Suitcase</SimpleValue>
@@ -17955,7 +17955,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SV</SimpleValue>
+				<SimpleValue>XSV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Envelope, steel</SimpleValue>
@@ -17964,25 +17964,25 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SW</SimpleValue>
+				<SimpleValue>XSW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Shrinkwrapped</SimpleValue>
+				<SimpleValue>krympfilm</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SY</SimpleValue>
+				<SimpleValue>XSY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Sleeve</SimpleValue>
+				<SimpleValue>hylsa</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>SZ</SimpleValue>
+				<SimpleValue>XSZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Sheets, in bundle/bunch/truss</SimpleValue>
@@ -17991,7 +17991,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>T1</SimpleValue>
+				<SimpleValue>XT1</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tablet</SimpleValue>
@@ -18000,7 +18000,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TB</SimpleValue>
+				<SimpleValue>XTB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tub</SimpleValue>
@@ -18009,7 +18009,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TC</SimpleValue>
+				<SimpleValue>XTC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tea-chest</SimpleValue>
@@ -18018,7 +18018,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TD</SimpleValue>
+				<SimpleValue>XTD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tube, collapsible</SimpleValue>
@@ -18027,7 +18027,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TE</SimpleValue>
+				<SimpleValue>XTE</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tyre</SimpleValue>
@@ -18036,7 +18036,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TG</SimpleValue>
+				<SimpleValue>XTG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tank container, generic</SimpleValue>
@@ -18045,7 +18045,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TI</SimpleValue>
+				<SimpleValue>XTI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tierce</SimpleValue>
@@ -18054,7 +18054,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TK</SimpleValue>
+				<SimpleValue>XTK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tank, rectangular</SimpleValue>
@@ -18063,7 +18063,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TL</SimpleValue>
+				<SimpleValue>XTL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tub, with lid</SimpleValue>
@@ -18072,7 +18072,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TN</SimpleValue>
+				<SimpleValue>XTN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tin</SimpleValue>
@@ -18081,7 +18081,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TO</SimpleValue>
+				<SimpleValue>XTO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tun</SimpleValue>
@@ -18090,7 +18090,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TR</SimpleValue>
+				<SimpleValue>XTR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Trunk</SimpleValue>
@@ -18099,7 +18099,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TS</SimpleValue>
+				<SimpleValue>XTS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Truss</SimpleValue>
@@ -18108,7 +18108,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TT</SimpleValue>
+				<SimpleValue>XTT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, tote</SimpleValue>
@@ -18117,16 +18117,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TU</SimpleValue>
+				<SimpleValue>XTU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Tube</SimpleValue>
+				<SimpleValue>tub</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TV</SimpleValue>
+				<SimpleValue>XTV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tube, with nozzle</SimpleValue>
@@ -18135,7 +18135,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TW</SimpleValue>
+				<SimpleValue>XTW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Pallet, triwall</SimpleValue>
@@ -18144,16 +18144,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TY</SimpleValue>
+				<SimpleValue>XTY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Tank, cylindrical</SimpleValue>
+				<SimpleValue>tank</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>TZ</SimpleValue>
+				<SimpleValue>XTZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Tubes, in bundle/bunch/truss</SimpleValue>
@@ -18162,7 +18162,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>UC</SimpleValue>
+				<SimpleValue>XUC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Uncaged</SimpleValue>
@@ -18171,7 +18171,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>UN</SimpleValue>
+				<SimpleValue>XUN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Unit</SimpleValue>
@@ -18180,7 +18180,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VA</SimpleValue>
+				<SimpleValue>XVA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Vat</SimpleValue>
@@ -18189,7 +18189,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VG</SimpleValue>
+				<SimpleValue>XVG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, gas (at 1031 mbar and 15°C)</SimpleValue>
@@ -18198,7 +18198,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VI</SimpleValue>
+				<SimpleValue>XVI</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Vial</SimpleValue>
@@ -18207,7 +18207,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VK</SimpleValue>
+				<SimpleValue>XVK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Vanpack</SimpleValue>
@@ -18216,7 +18216,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VL</SimpleValue>
+				<SimpleValue>XVL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, liquid</SimpleValue>
@@ -18225,7 +18225,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VO</SimpleValue>
+				<SimpleValue>XVO</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, solid, large particles (“nodules”)</SimpleValue>
@@ -18234,16 +18234,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VP</SimpleValue>
+				<SimpleValue>XVP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Vacuum-packed</SimpleValue>
+				<SimpleValue>vacuumförpackning</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VQ</SimpleValue>
+				<SimpleValue>XVQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, liquefied gas (at abnormal temperature/pressure)</SimpleValue>
@@ -18252,7 +18252,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VN</SimpleValue>
+				<SimpleValue>XVN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Vehicle</SimpleValue>
@@ -18261,7 +18261,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VR</SimpleValue>
+				<SimpleValue>XVR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, solid, granular particles (“grains”)</SimpleValue>
@@ -18270,7 +18270,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VS</SimpleValue>
+				<SimpleValue>XVS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, scrap metal</SimpleValue>
@@ -18279,7 +18279,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>VY</SimpleValue>
+				<SimpleValue>XVY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bulk, solid, fine particles (“powders”)</SimpleValue>
@@ -18288,7 +18288,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WA</SimpleValue>
+				<SimpleValue>XWA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container</SimpleValue>
@@ -18297,7 +18297,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WB</SimpleValue>
+				<SimpleValue>XWB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Wickerbottle</SimpleValue>
@@ -18306,7 +18306,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WC</SimpleValue>
+				<SimpleValue>XWC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, steel</SimpleValue>
@@ -18315,7 +18315,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WD</SimpleValue>
+				<SimpleValue>XWD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, aluminium</SimpleValue>
@@ -18324,7 +18324,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WF</SimpleValue>
+				<SimpleValue>XWF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, metal</SimpleValue>
@@ -18333,7 +18333,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WG</SimpleValue>
+				<SimpleValue>XWG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, steel, pressurised &gt; 10 kpa</SimpleValue>
@@ -18342,7 +18342,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WH</SimpleValue>
+				<SimpleValue>XWH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, aluminium, pressurised &gt; 10 kpa</SimpleValue>
@@ -18351,7 +18351,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WJ</SimpleValue>
+				<SimpleValue>XWJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, metal, pressure 10 kpa</SimpleValue>
@@ -18360,7 +18360,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WK</SimpleValue>
+				<SimpleValue>XWK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, steel, liquid</SimpleValue>
@@ -18369,7 +18369,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WL</SimpleValue>
+				<SimpleValue>XWL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, aluminium, liquid</SimpleValue>
@@ -18378,7 +18378,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WM</SimpleValue>
+				<SimpleValue>XWM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, metal, liquid</SimpleValue>
@@ -18387,7 +18387,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WN</SimpleValue>
+				<SimpleValue>XWN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, woven plastic, without coat/liner</SimpleValue>
@@ -18396,7 +18396,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WP</SimpleValue>
+				<SimpleValue>XWP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, woven plastic, coated</SimpleValue>
@@ -18405,7 +18405,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WQ</SimpleValue>
+				<SimpleValue>XWQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, woven plastic, with liner</SimpleValue>
@@ -18414,16 +18414,16 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WR</SimpleValue>
+				<SimpleValue>XWR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Intermediate bulk container, woven plastic, coated and liner</SimpleValue>
+				<SimpleValue>omslag</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WS</SimpleValue>
+				<SimpleValue>XWS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, plastic film</SimpleValue>
@@ -18432,7 +18432,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WT</SimpleValue>
+				<SimpleValue>XWT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, textile with out coat/liner</SimpleValue>
@@ -18441,7 +18441,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WU</SimpleValue>
+				<SimpleValue>XWU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, natural wood, with inner liner</SimpleValue>
@@ -18450,7 +18450,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WV</SimpleValue>
+				<SimpleValue>XWV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, textile, coated</SimpleValue>
@@ -18459,7 +18459,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WW</SimpleValue>
+				<SimpleValue>XWW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, textile, with liner</SimpleValue>
@@ -18468,7 +18468,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WX</SimpleValue>
+				<SimpleValue>XWX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, textile, coated and liner</SimpleValue>
@@ -18477,7 +18477,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WY</SimpleValue>
+				<SimpleValue>XWY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, plywood, with inner liner</SimpleValue>
@@ -18486,7 +18486,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>WZ</SimpleValue>
+				<SimpleValue>XWZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, reconstituted wood, with inner liner</SimpleValue>
@@ -18495,7 +18495,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XA</SimpleValue>
+				<SimpleValue>XXA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, woven plastic, without inner coat/liner</SimpleValue>
@@ -18504,7 +18504,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XB</SimpleValue>
+				<SimpleValue>XXB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, woven plastic, sift proof</SimpleValue>
@@ -18513,7 +18513,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XC</SimpleValue>
+				<SimpleValue>XXC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, woven plastic, water resistant</SimpleValue>
@@ -18522,7 +18522,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XD</SimpleValue>
+				<SimpleValue>XXD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, plastics film</SimpleValue>
@@ -18531,7 +18531,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XF</SimpleValue>
+				<SimpleValue>XXF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, textile, without inner coat/liner</SimpleValue>
@@ -18540,7 +18540,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XG</SimpleValue>
+				<SimpleValue>XXG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, textile, sift proof</SimpleValue>
@@ -18549,7 +18549,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XH</SimpleValue>
+				<SimpleValue>XXH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, textile, water resistant</SimpleValue>
@@ -18558,7 +18558,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XJ</SimpleValue>
+				<SimpleValue>XXJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, paper, multi-wall</SimpleValue>
@@ -18567,7 +18567,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>XK</SimpleValue>
+				<SimpleValue>XXK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, paper, multi-wall, water resistant</SimpleValue>
@@ -18576,7 +18576,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YA</SimpleValue>
+				<SimpleValue>XYA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in steel drum</SimpleValue>
@@ -18585,7 +18585,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YB</SimpleValue>
+				<SimpleValue>XYB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in steel crate box</SimpleValue>
@@ -18594,7 +18594,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YC</SimpleValue>
+				<SimpleValue>XYC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in aluminium drum</SimpleValue>
@@ -18603,7 +18603,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YD</SimpleValue>
+				<SimpleValue>XYD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in aluminium crate</SimpleValue>
@@ -18612,7 +18612,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YF</SimpleValue>
+				<SimpleValue>XYF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in wooden box</SimpleValue>
@@ -18621,7 +18621,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YG</SimpleValue>
+				<SimpleValue>XYG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in plywood drum</SimpleValue>
@@ -18630,7 +18630,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YH</SimpleValue>
+				<SimpleValue>XYH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in plywood box</SimpleValue>
@@ -18639,7 +18639,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YJ</SimpleValue>
+				<SimpleValue>XYJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in fibre drum</SimpleValue>
@@ -18648,7 +18648,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YK</SimpleValue>
+				<SimpleValue>XYK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in fibreboard box</SimpleValue>
@@ -18657,7 +18657,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YL</SimpleValue>
+				<SimpleValue>XYL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in plastic drum</SimpleValue>
@@ -18666,7 +18666,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YM</SimpleValue>
+				<SimpleValue>XYM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, plastic receptacle in solid plastic box</SimpleValue>
@@ -18675,7 +18675,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YN</SimpleValue>
+				<SimpleValue>XYN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in steel drum</SimpleValue>
@@ -18684,7 +18684,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YP</SimpleValue>
+				<SimpleValue>XYP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in steel crate box</SimpleValue>
@@ -18693,7 +18693,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YQ</SimpleValue>
+				<SimpleValue>XYQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in aluminium drum</SimpleValue>
@@ -18702,7 +18702,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YR</SimpleValue>
+				<SimpleValue>XYR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in aluminium crate</SimpleValue>
@@ -18711,7 +18711,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YS</SimpleValue>
+				<SimpleValue>XYS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in wooden box</SimpleValue>
@@ -18720,7 +18720,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YT</SimpleValue>
+				<SimpleValue>XYT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in plywood drum</SimpleValue>
@@ -18729,7 +18729,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YV</SimpleValue>
+				<SimpleValue>XYV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in wickerwork hamper</SimpleValue>
@@ -18738,7 +18738,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YW</SimpleValue>
+				<SimpleValue>XYW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in fibre drum</SimpleValue>
@@ -18747,7 +18747,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YX</SimpleValue>
+				<SimpleValue>XYX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in fibreboard box</SimpleValue>
@@ -18756,7 +18756,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YY</SimpleValue>
+				<SimpleValue>XYY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in expandable plastic pack</SimpleValue>
@@ -18765,7 +18765,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>YZ</SimpleValue>
+				<SimpleValue>XYZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Composite packaging, glass receptacle in solid plastic pack</SimpleValue>
@@ -18774,7 +18774,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZA</SimpleValue>
+				<SimpleValue>XZA</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, paper, multi-wall</SimpleValue>
@@ -18783,7 +18783,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZB</SimpleValue>
+				<SimpleValue>XZB</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Bag, large</SimpleValue>
@@ -18792,7 +18792,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZC</SimpleValue>
+				<SimpleValue>XZC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, paper, multi-wall, water resistant</SimpleValue>
@@ -18801,7 +18801,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZD</SimpleValue>
+				<SimpleValue>XZD</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic, with structural equipment, solids</SimpleValue>
@@ -18810,7 +18810,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZF</SimpleValue>
+				<SimpleValue>XZF</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic, freestanding, solids</SimpleValue>
@@ -18819,7 +18819,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZG</SimpleValue>
+				<SimpleValue>XZG</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic, with structural equipment,
@@ -18829,7 +18829,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZH</SimpleValue>
+				<SimpleValue>XZH</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic, freestanding, pressurised</SimpleValue>
@@ -18838,7 +18838,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZJ</SimpleValue>
+				<SimpleValue>XZJ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic, with structural equipment, liquids</SimpleValue>
@@ -18847,7 +18847,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZK</SimpleValue>
+				<SimpleValue>XZK</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, rigid plastic, freestanding, liquids</SimpleValue>
@@ -18856,7 +18856,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZL</SimpleValue>
+				<SimpleValue>XZL</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite, rigid plastic, solids</SimpleValue>
@@ -18865,7 +18865,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZM</SimpleValue>
+				<SimpleValue>XZM</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite, flexible plastic, solids</SimpleValue>
@@ -18874,7 +18874,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZN</SimpleValue>
+				<SimpleValue>XZN</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite, rigid plastic, pressurised</SimpleValue>
@@ -18883,7 +18883,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZP</SimpleValue>
+				<SimpleValue>XZP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite, flexible plastic, pressurised</SimpleValue>
@@ -18892,7 +18892,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZQ</SimpleValue>
+				<SimpleValue>XZQ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite, rigid plastic, liquids</SimpleValue>
@@ -18901,7 +18901,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZR</SimpleValue>
+				<SimpleValue>XZR</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite, flexible plastic, liquids</SimpleValue>
@@ -18910,7 +18910,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZS</SimpleValue>
+				<SimpleValue>XZS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, composite</SimpleValue>
@@ -18919,7 +18919,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZT</SimpleValue>
+				<SimpleValue>XZT</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, fibreboard</SimpleValue>
@@ -18928,7 +18928,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZU</SimpleValue>
+				<SimpleValue>XZU</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, flexible</SimpleValue>
@@ -18937,7 +18937,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZV</SimpleValue>
+				<SimpleValue>XZV</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, metal, other than steel</SimpleValue>
@@ -18946,7 +18946,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZW</SimpleValue>
+				<SimpleValue>XZW</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, natural wood</SimpleValue>
@@ -18955,7 +18955,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZX</SimpleValue>
+				<SimpleValue>XZX</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, plywood</SimpleValue>
@@ -18964,7 +18964,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZY</SimpleValue>
+				<SimpleValue>XZY</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Intermediate bulk container, reconstituted wood</SimpleValue>
@@ -18973,7 +18973,7 @@
 		<Row>
 			
 			<Value ColumnRef="code">
-				<SimpleValue>ZZ</SimpleValue>
+				<SimpleValue>XZZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Mutually defined</SimpleValue>

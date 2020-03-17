@@ -21,13 +21,58 @@
 		</Key>
 	</ColumnSet>
 	<SimpleCodeList>
+	<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>AA</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Produktversion</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
 				<SimpleValue>CC</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Industry commodity code</SimpleValue>
+				<SimpleValue>Branschvarukod</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>MN</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Modellnummer</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>NB</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Batchnummer</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>SN</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Serienummer</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>CG</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Varugruppskod</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -54,7 +99,7 @@
 				<SimpleValue>HS</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Harmonised system/INTRASTAT</SimpleValue>
+				<SimpleValue>Harmonised system/Intrastat</SimpleValue>
 			</Value>
 		</Row>
 		
@@ -67,7 +112,15 @@
 				<SimpleValue>Product/service identification number/ UNSPSC</SimpleValue>
 			</Value>
 		</Row>
-		
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>SSU</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Leverantörens klassificering</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
@@ -87,6 +140,15 @@
 				<SimpleValue>CPV</SimpleValue>
 			</Value>
 		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>STL</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>ATC-kod</SimpleValue>
+			</Value>
+		</Row>
 		
 		<Row>
 			
@@ -104,17 +166,33 @@
 				<SimpleValue>TSP</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>EU Combined Nomenclature</SimpleValue>
+				<SimpleValue>EUs KN-nummer</SimpleValue>
 			</Value>
 		</Row>
-		
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>TST</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>UNSPSC</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>TSS</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Prisgruppskod</SimpleValue>
+			</Value>
+		</Row>
 		<Row>
 			
 			<Value ColumnRef="code">
 				<SimpleValue>ZZZ</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
-				<SimpleValue>Mutually defined</SimpleValue>
+				<SimpleValue>Bilateralt avtalat</SimpleValue>
 			</Value>
 		</Row>
 		
