@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
 	<Identification>
-		<ShortName>InvoiceBaseType1</ShortName>
+		<ShortName>InvoiceBaseType</ShortName>
 		<Version></Version>
 		<CanonicalUri></CanonicalUri>
 		<CanonicalVersionUri></CanonicalVersionUri>
