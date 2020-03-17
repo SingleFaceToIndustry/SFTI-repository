@@ -1,0 +1,73 @@
+﻿Change-log Stylesheet version 1.0.5
+-Added functionality to correcly show supplier SEPA ID under Payment instruction
+-Corrected a typing error for the swedish BT-158 from "Klassifiseringskod" to "Klassificeringskod"
+- Cleaned up free floating "%" and "," when values are abscent.
+-Fixed a bug causing Invoiceline/AllowanceCharge/BaseAmount to disappear in the stylesheet, the value is now visible 
+-Added Swedish codes for UNCL4461
+-Added Swedish codes for UNCL2005
+-Added Swedish codes for UNCL7143
+-Added Swedish codes for UNCL1153
+-Added Swedish codes for UNECE
+-Corrected codelists in Swedish and English to pick up UNECE recommendation 21 as prefixed with "X"
+
+
+
+
+
+
+Change-log Stylesheet version 1.0.4
+-Removed deprecated mapping for cac:PayeeFinancialAccount/cac:FinancialInstitutionBranch/cac:FinancialInstitution/cbc:ID.
+Value not in use in BIS billing 3
+
+
+Change-log Stylesheet version 1.0.3
+
+-Added language support for Poland (PL)
+
+-Changed XSLT version to 1.0
+
+-Removed stylesheet technical footer timestamp due to XSLT 1.0 compability issues.
+
+-OrderReference/SalesOrderID lead texts (BT-14) is now in in Bold.
+
+-The values of CreditNote/PaymentMeans/PaymentDueDate was displayed once for every occurance. Only the first occurrance is now showed.
+
+
+
+
+Change-log Stylesheet version 1.0.2:
+
+
+-Added Currency handling
+
+-Removed language information from code lists
+
+-Added file user_config for language control
+
+-Changed namespaces in code lists
+
+-Added footer notes
+
+-Fixed a bug regarding header references dependencies on additional documents
+
+-Prepared stylesheet for InvoicePeriod/DescriptionCode
+
+-Changed Buyer accounting reference to header reference instead of item row reference
+
+-Added support for undefined Payment means
+
+-Added column for SEPA values in Payment means direct debit
+
+-Added logic for first occurrence of credit note due date
+
+-Edited display of document level allowances and charges base amount
+
+-Added text for allowance or charge on line-level
+
+-Added timestamp in technical footer
+
+-Added "Säljaren" to Swedish BT-list 
+
+-Fixed a bug for empty currency values
+
+-Removed deprecated Contact id:s
