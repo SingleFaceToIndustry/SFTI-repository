@@ -4,12 +4,12 @@
 
 		PEPPOL Instance Documentation	
 
-		title= PEPPOL_BIS 4A/5ACommonTemplates.xml	
+		title= PEPPOL_BIS 3CommonTemplates.xml	
 		publisher= "SFTI tekniska kansli"
 		Creator= SFTI/SL
 		created= 2014-02-12
 		conformsTo= UBL-Invoice-2.1.xsd
-		description= "Common templates for displaying PEPPOL BIS 4A/5A, version 2.0 (Invoice and Credit note)"
+		description= "Common templates for displaying PEPPOL BIS 3, version 2.0 (Invoice and Credit note)"
 		
 		Derived from work by OIOUBL, Denmark. For more information, see www.sfti.se or email tekniskt.kansli@skl.se
 		
@@ -25,6 +25,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	<xsl:variable name="UNCL4461" select="document(concat('UNCL4461_', $lang, '.xml'))"/>
 	<xsl:variable name="UNCL7161" select="document(concat('UNCL7161_', $lang, '.xml'))"/>
 	<xsl:variable name="UNCL5189" select="document(concat('UNCL5189_', $lang, '.xml'))"/>
+	<xsl:variable name="UNCL1153" select="document(concat('UNCL1153_', $lang, '.xml'))"/>
 	<xsl:variable name="UBLDescriptionCode" select="document(concat('UBLPeriodDescriptionCode_', $lang, '.xml'))"/>
 	<xsl:variable name="UBLTaxCategoryCode" select="document(concat('UBLTaxCategoryCode_', $lang, '.xml'))"/>
 	<xsl:variable name="UBLClassificationCode" select="document(concat('UBLClassificationCode_', $lang, '.xml'))"/>
@@ -33,6 +34,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	<xsl:variable name="UNCL4461_en" select="document('UNCL4461_en.xml')"/>
 	<xsl:variable name="UNCL7161_en" select="document('UNCL7161_en.xml')"/>
 	<xsl:variable name="UNCL5189_en" select="document('UNCL5189_en.xml')"/>
+	<xsl:variable name="UNCL1153_en" select="document('UNCL1153_en.xml')"/>
 	<xsl:variable name="UBLDescriptionCode_en" select="document('UBLPeriodDescriptionCode_en.xml')"/>
 	<xsl:variable name="UBLTaxCategoryCode_en" select="document('UBLTaxCategoryCode_en.xml')"/>
 	<xsl:variable name="UBLClassificationCode_en" select="document('UBLClassificationCode_en.xml')"/>
@@ -99,8 +101,6 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	</xsl:choose>
 	
 	</xsl:template>
-	
-	
 	<xsl:template name="getGenericCode">
 		<xsl:param name="documentName"/>
 		<xsl:param name="documentName_en"/>
@@ -116,6 +116,8 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 		</xsl:choose>
 		
 	</xsl:template>
+	
+	
 	<!-- TO HERE. CHANGE FCN CALLS TO CALL TEMPLATE-->
 	<!--Function to pick the Base Type codes for document header--> 
 	<xsl:template name="DocumentHeader">
@@ -161,6 +163,11 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 		<xsl:call-template name="getGenericCode"><xsl:with-param name="documentName" select="$UNECE"/><xsl:with-param name="documentName_en" select="$UNECE_en"/><xsl:with-param name="documentCode" select="$Code"/></xsl:call-template>
 	</xsl:template>
 	
+	<xsl:template name="InvoicedObjectIdentifierScheme">
+		<xsl:param name="InvoicedObjectIdentifier"/>
+		<xsl:call-template name="getGenericCode"><xsl:with-param name="documentName" select="$UNCL1153"/><xsl:with-param name="documentName_en" select="$UNCL1153_en"/><xsl:with-param name="documentCode" select="$InvoicedObjectIdentifier"/></xsl:call-template>
+	</xsl:template>
+	
 	<xsl:template name="replace">
     <xsl:param name="string"/>
     <xsl:choose>
@@ -182,6 +189,10 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
         <xsl:with-param name="string" select="."/>
     </xsl:call-template>
 </xsl:template>
+<xsl:template match="cac:Item/cbc:Description">
+ <xsl:call-template name="replace">
+        <xsl:with-param name="string" select="."/>
+    </xsl:call-template></xsl:template>
 	
 	<!--Party templates from here:-->
 	<xsl:template match=" cac:AccountingSupplierParty">
@@ -937,7 +948,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 						<b>
 							<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-128'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 						</b>
-						<xsl:apply-templates select="cac:DocumentReference/cbc:ID"/> [<xsl:apply-templates select="cac:DocumentReference/cbc:ID/@schemeID"/>]
+						<xsl:apply-templates select="cac:DocumentReference/cbc:ID"/> [<xsl:call-template name="InvoicedObjectIdentifierScheme"><xsl:with-param name="InvoicedObjectIdentifier" select="cac:DocumentReference/cbc:ID/@schemeID"/></xsl:call-template>]
 						<br/>
 					</xsl:if>
 				</small>
@@ -1062,7 +1073,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 				</xsl:otherwise>
 			</xsl:choose>
 			<xsl:if test="cbc:ItemClassificationCode/@listVersionID !=''">
-				 [<xsl:apply-templates select="cbc:ItemClassificationCode/@listVersionID"/>]
+				 [ver.&#160;<xsl:apply-templates select="cbc:ItemClassificationCode/@listVersionID"/>]
 			</xsl:if>
 			<br/>
 		</xsl:if>
@@ -1101,14 +1112,16 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 					<xsl:otherwise/>
 				</xsl:choose>
 			</td>
-			<td valign="top" colspan="2">
 				<xsl:if test="cbc:AllowanceChargeReasonCode !=''">
-					<xsl:apply-templates select="cbc:AllowanceChargeReasonCode"/>
-				</xsl:if>
-			</td>
-			<td valign="top" colspan="2">
-				<xsl:apply-templates select="cbc:AllowanceChargeReason"/>
-			</td>
+				<td valign="top" colspan="2">
+					<xsl:apply-templates select="cbc:AllowanceChargeReasonCode"/>	
+				</td>
+			</xsl:if>
+			<xsl:if test="cbc:AllowanceChargeReason !=''">
+				<td valign="top" colspan="2">
+					<xsl:apply-templates select="cbc:AllowanceChargeReason"/>
+				</td>
+			</xsl:if>
 			<td>
 				<xsl:if test="cac:TaxCategory !='' ">
 					<xsl:choose>
@@ -1219,15 +1232,50 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	<xsl:choose>
 		<xsl:when test="cbc:ChargeIndicator ='true'">
 				<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BG-28'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
+				<xsl:choose>
+			<xsl:when test="cbc:BaseAmount !='' ">
+				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:Amount"/></xsl:call-template>
+				<br/><xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-142'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
+
+				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:BaseAmount"/></xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
-			<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BG-27'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>			</xsl:otherwise>
+				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:Amount"/></xsl:call-template>
+			</xsl:otherwise>
+		</xsl:choose>
+			</xsl:when>
+			<xsl:otherwise>
+			<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BG-27'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>	
+			<xsl:choose>
+			<xsl:when test="cbc:BaseAmount !='' ">
+				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:Amount"/></xsl:call-template>
+				<br/><xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-137'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
+
+				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:BaseAmount"/></xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:Amount"/></xsl:call-template>
+			</xsl:otherwise>
+		</xsl:choose>		</xsl:otherwise>
 	</xsl:choose>
-		<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:Amount"/></xsl:call-template>
+		
 		<small>
+		
+			
+			<xsl:if test="cbc:AllowanceChargeReason !=''">
 			<br/>
-			<xsl:apply-templates select="cbc:AllowanceChargeReason"/> (<xsl:apply-templates select="cbc:AllowanceChargeReasonCode"/>) 
-			<xsl:apply-templates select="cbc:MultiplierFactorNumeric"/>%
+				<xsl:apply-templates select="cbc:AllowanceChargeReason"/>
+			</xsl:if>
+				<xsl:choose>
+					<xsl:when test="cbc:AllowanceChargeReasonCode != ''">
+					(<xsl:apply-templates select="cbc:AllowanceChargeReasonCode"/>)
+					</xsl:when>
+				</xsl:choose>
+			<xsl:if test="cbc:MultiplierFactorNumeric != ''">
+				&#160;<xsl:apply-templates select="cbc:MultiplierFactorNumeric"/>%
+			</xsl:if>
+					
+				
 			<br/>
 	
 		</small>
@@ -1271,7 +1319,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 						&#160;<xsl:apply-templates select="cac:TaxCategory/cbc:Percent"/>%
 					</xsl:when>
 					<xsl:otherwise>
-						%
+						
 					</xsl:otherwise>
 				</xsl:choose>
 			</td>
@@ -1334,8 +1382,8 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 			</td>
 			<xsl:if test="cac:PaymentMandate != ''">
 				<td valign="top" colspan="2">
-					<xsl:if test="../cac:AccountingSupplierParty/cac:PartyIdentification/cbc:ID/@schemeID = 'SEPA'">
-						<xsl:value-of select="../cac:AccountingSupplierParty/cac:PartyIdentification/cbc:ID"/>
+					<xsl:if test="../cac:AccountingSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeID = 'SEPA'">
+						<xsl:value-of select="../cac:AccountingSupplierParty/cac:Party/cac:PartyIdentification/cbc:ID[@schemeID = 'SEPA']"/>
 					</xsl:if>
 					<xsl:if test="../cac:PayeeParty/cac:PartyIdentification/cbc:ID/@schemeID = 'SEPA'">
 						<xsl:value-of select="../cac:PayeeParty/cac:PartyIdentification/cbc:ID"/>
@@ -1389,7 +1437,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-18'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 										</b>
 										<xsl:value-of select="cbc:ID"/>
-										<xsl:if test="cbc:ID/@schemeID != ''"> [<xsl:value-of select="cbc:ID/@schemeID"/>]</xsl:if>
+										<xsl:if test="cbc:ID/@schemeID != ''"> [<xsl:call-template name="InvoicedObjectIdentifierScheme"><xsl:with-param name="InvoicedObjectIdentifier" select="cbc:ID/@schemeID"/></xsl:call-template>]</xsl:if>
 										
 									</xsl:if>
 									<xsl:if test="cbc:DocumentTypeCode='50'">
@@ -1398,7 +1446,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-11'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 										</b>
 										<xsl:value-of select="cbc:ID"/>
-										<xsl:if test="cbc:ID/@schemeID != ''"> [<xsl:value-of select="cbc:ID/@schemeID"/>]</xsl:if>
+										<xsl:if test="cbc:ID/@schemeID != ''"> [<xsl:call-template name="InvoicedObjectIdentifierScheme"><xsl:with-param name="InvoicedObjectIdentifier" select="cbc:ID/@schemeID"/></xsl:call-template>]</xsl:if>
 									</xsl:if>
 
 		</xsl:template>
@@ -1408,7 +1456,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	<xsl:if test="cbc:ID !=''">
 			
 				<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-122'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template><xsl:apply-templates select="cbc:ID"/>
-				<xsl:if test="cbc:ID/@schemeID != ''"> [<xsl:apply-templates select="cbc:ID/@schemeID"/>]</xsl:if>
+				<xsl:if test="cbc:ID/@schemeID != ''"> [<xsl:call-template name="InvoicedObjectIdentifierScheme"><xsl:with-param name="InvoicedObjectIdentifier" select="cbc:ID/@schemeID"/></xsl:call-template>]</xsl:if>
 				
 				
 	</xsl:if>
