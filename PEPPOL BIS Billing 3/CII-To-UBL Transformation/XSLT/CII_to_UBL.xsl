@@ -11,7 +11,7 @@
 				Core Invoice Usage Specification - PEPPOL BIS Billing 3.0
 				into UBL 2.1 Invoice and CreditNote
 		License: Licensed under European Union Public License (EUPL) version 1.2.
-******************************************************************************************************************
+*******************************************************************************************************************
 -->
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:inv="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:crd="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:sfti="urn:sfti:se:xslt:functions" exclude-result-prefixes="xs fn rsm ram udt qdt sfti crd inv">
 	<xsl:output method="xml" encoding="UTF-8" byte-order-mark="no" indent="yes"/>
