@@ -1,4 +1,7 @@
-﻿Change-log Stylesheet version 1.0.5
+﻿Change-log Stylesheet version 1.0.6
+-Corrected a bug causing "Document level charge amount" (BT-99) and "Document level allowance amount" (BT-92) to switch place.
+
+Change-log Stylesheet version 1.0.5
 -Added functionality to correcly show supplier SEPA ID under Payment instruction
 -Corrected a typing error for the swedish BT-158 from "Klassifiseringskod" to "Klassificeringskod"
 - Cleaned up free floating "%" and "," when values are abscent.
