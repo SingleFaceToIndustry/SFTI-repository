@@ -642,7 +642,7 @@ padding-top:1vw;
 										</th>
 										<th valign="top" align="right" width="20%">
 											<b>
-												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-99'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
+												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-92'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
 											</b>
 										</th>
 									</tr>
@@ -707,7 +707,7 @@ padding-top:1vw;
 										</th>
 										<th valign="top" align="right" width="20%">
 											<b>
-												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-92'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
+												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-99'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
 											</b>
 										</th>
 									</tr>
@@ -1161,7 +1161,7 @@ padding-top:1vw;
 										[<xsl:value-of select="cac:AccountingCustomerParty/cac:Party/cbc:EndpointID/@schemeID"/>]
 										</xsl:if>
 									
-					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.5<br/>
+					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.6<br/>
 					This stylesheet uses business terms defined the CEN/EN16931-1 and is reproduced with permission from CEN. CEN bears no liability from the use of the content and implementation of this stylesheet and gives no warranties expressed or implied for any purpose.<br/>
 					
 					
