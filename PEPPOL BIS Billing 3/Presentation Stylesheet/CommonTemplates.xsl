@@ -18,6 +18,8 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fcn="urn:sfti:se:xsl:functions" xmlns:n1="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:n2="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cdl="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:sdt="urn:oasis:names:specification:ubl:schema:xsd:SpecializedDatatypes-2" 
 xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" exclude-result-prefixes="n1 n2 cac cdl cbc ccts sdt udt">
 	<xsl:include href="user_config.xsl"/>
+	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
+	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
 	<xsl:variable name="moduleDocBT_en" select="document('Headlines-BT_en.xml')"/>
 	<xsl:variable name="moduleDocBT" select="document(concat('Headlines-BT_', $lang, '.xml'))"/>
 	<xsl:variable name="invoiceBaseType" select="document(concat('UBLInvoiceBaseType_',$lang, '.xml'))"/>
@@ -40,6 +42,7 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	<xsl:variable name="UBLClassificationCode_en" select="document('UBLClassificationCode_en.xml')"/>
 	<xsl:variable name="invoiceBaseType_en" select="document('UBLInvoiceBaseType_en.xml')"/>
 	<xsl:variable name="UNECE_en" select="document('UNECE_en.xml')"/>
+	<xsl:variable name="VATEX_en" select="document('VATEX_en.xml')"/>
 	<xsl:template match="/">
 		<xsl:apply-templates/>
 	</xsl:template>
@@ -161,6 +164,12 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 	<xsl:template name="UNECECode">
 		<xsl:param name="Code"/>
 		<xsl:call-template name="getGenericCode"><xsl:with-param name="documentName" select="$UNECE"/><xsl:with-param name="documentName_en" select="$UNECE_en"/><xsl:with-param name="documentCode" select="$Code"/></xsl:call-template>
+	</xsl:template>
+	
+		<!--Function to pick the VATEX codes--> 
+	<xsl:template name="VATEXCode">
+		<xsl:param name="Code"/>
+		<xsl:call-template name="getGenericCode"><xsl:with-param name="documentName" select="$VATEX_en"/><xsl:with-param name="documentName_en" select="$VATEX_en"/><xsl:with-param name="documentCode" select="$Code"/></xsl:call-template>
 	</xsl:template>
 	
 	<xsl:template name="InvoicedObjectIdentifierScheme">
@@ -1324,9 +1333,24 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
 				</xsl:choose>
 			</td>
 			<td colspan="2">
-				<xsl:if test="cac:TaxCategory/cbc:TaxExemptionReason !=''">
-					<xsl:apply-templates select="cac:TaxCategory/cbc:TaxExemptionReason"/><xsl:if test="cac:TaxCategory/cbc:TaxExemptionReasonCode !=''"> [<xsl:apply-templates select="cac:TaxCategory/cbc:TaxExemptionReasonCode"/>] </xsl:if>
-				</xsl:if>
+			<xsl:choose>
+				<xsl:when test="cac:TaxCategory/cbc:TaxExemptionReasonCode !=''">
+					<xsl:choose>
+						<xsl:when test="cac:TaxCategory/cbc:TaxExemptionReason !=''">
+							<xsl:apply-templates select="cac:TaxCategory/cbc:TaxExemptionReason"/>
+							[<xsl:apply-templates select="cac:TaxCategory/cbc:TaxExemptionReasonCode"/>]
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:call-template name="VATEXCode"><xsl:with-param name="Code" select="translate(cac:TaxCategory/cbc:TaxExemptionReasonCode, $lowercase, $uppercase)"/></xsl:call-template> [<xsl:apply-templates select="cac:TaxCategory/cbc:TaxExemptionReasonCode"/>]
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:if test="cac:TaxCategory/cbc:TaxExemptionReason !=''">
+						<xsl:apply-templates select="cac:TaxCategory/cbc:TaxExemptionReason"/>
+					</xsl:if>
+				</xsl:otherwise>
+			</xsl:choose>
 			</td>
 			<td colspan="2">
 				<xsl:call-template name="Currency"><xsl:with-param name="currencyvalue" select="cbc:TaxableAmount"/></xsl:call-template>

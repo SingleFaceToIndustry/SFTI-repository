@@ -294,7 +294,7 @@ padding-top:1vw;
 													<item><xsl:value-of select="cbc:PaymentDueDate"/></item>
 												</xsl:if>
 											</xsl:for-each-->
-									<xsl:value-of select="cac:PaymentMeans[1]/cbc:PaymentDueDate"/>
+									<xsl:value-of select="cac:PaymentMeans[cbc:PaymentDueDate][1]/cbc:PaymentDueDate"/>
 									</xsl:if>
 									<xsl:if test="local-name(.) = 'Invoice'">
 										<xsl:value-of select="cbc:DueDate"/>
@@ -963,7 +963,7 @@ padding-top:1vw;
 							<h3>
 								<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BG-16'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
 							</h3>
-							<xsl:if test="cac:PaymentMeans/cac:PayeeFinancialAccount !=''">
+							<xsl:if test="cac:PaymentMeans !=''">
 								<table>
 									<tr>
 										<th align="left" valign="top">
@@ -1132,8 +1132,11 @@ padding-top:1vw;
 						<div class="col-12">
 							<p>
 							<small>
-								<xsl:value-of select="cbc:UBLVersionID"/>
-								<br/>
+								<xsl:if test="cbc:UBLVersionID">
+									UBLversionID: <xsl:value-of select="cbc:UBLVersionID"/>
+									<br/>
+								</xsl:if>
+								
 								<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-23'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 								<xsl:value-of select="cbc:ProfileID"/>
 								<br/>
@@ -1161,7 +1164,7 @@ padding-top:1vw;
 										[<xsl:value-of select="cac:AccountingCustomerParty/cac:Party/cbc:EndpointID/@schemeID"/>]
 										</xsl:if>
 									
-					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.6<br/>
+					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.7<br/>
 					This stylesheet uses business terms defined the CEN/EN16931-1 and is reproduced with permission from CEN. CEN bears no liability from the use of the content and implementation of this stylesheet and gives no warranties expressed or implied for any purpose.<br/>
 					
 					

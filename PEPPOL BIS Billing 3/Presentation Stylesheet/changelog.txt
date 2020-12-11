@@ -1,4 +1,12 @@
-﻿Change-log Stylesheet version 1.0.6
+﻿Change-log Stylesheet version 1.0.7
+-Added improvment for visualization of UBLVersionID in technical footer
+-Added VATEX codelist and support to handle VATEX codes where cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode does not have a coresponding cbc:TaxExemptionReason.
+-Corrected a bug where cac:PaymentMeans didn't show if there was no cac:PaymentMeans/cac:PayeeFinancialAccount
+-Added functionality to handle multiple cac:PaymentMeans/cbc:PaymentDueDate
+
+
+
+Change-log Stylesheet version 1.0.6
 -Corrected a bug causing "Document level charge amount" (BT-99) and "Document level allowance amount" (BT-92) to switch place.
 
 Change-log Stylesheet version 1.0.5
