@@ -15,7 +15,7 @@
 <!--     - PayableRoundingAmount is intended to bring out an even number as          -->
 <!--       PayableAmount (but it is the invoice issuer's prerogative how to use it). -->
 <!--                                                                                 -->
-<!--     Revised with validation rules according to PEPPOL's spring release 2020     -->
+<!--     Revised with validation rules according to PEPPOL's fall release 2020       -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <Invoice 
  xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" 
@@ -24,7 +24,7 @@
         <cbc:UBLVersionID>2.1</cbc:UBLVersionID>   
 	<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
 	<cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-	<cbc:ID>2018210</cbc:ID>
+	<cbc:ID>2018202</cbc:ID>
 	<cbc:IssueDate>2018-02-08</cbc:IssueDate>
 	<cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
 	<cbc:Note>Line 1 of document level note.

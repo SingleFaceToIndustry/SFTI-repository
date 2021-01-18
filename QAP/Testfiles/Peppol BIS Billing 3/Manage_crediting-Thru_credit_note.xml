@@ -8,7 +8,7 @@
 <!--     - This use case illustrates the option of crediting by means of         -->
 <!--       CreditNote: the entire initial Invoice is credited.                   --> 
 <!--                                                                             -->
-<!--     Revised with validation rules according to PEPPOL's spring release 2020 -->
+<!--     Revised with validation rules according to PEPPOL's fall release 2020   -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <CreditNote
  xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" 
