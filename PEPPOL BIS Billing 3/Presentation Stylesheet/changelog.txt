@@ -1,4 +1,7 @@
-﻿Change-log Stylesheet version 1.0.7
+﻿Change-log Stylesheet version 1.0.8
+-Added functionality to display decimals on currency values below 1.
+
+Change-log Stylesheet version 1.0.7
 -Added improvment for visualization of UBLVersionID in technical footer
 -Added VATEX codelist and support to handle VATEX codes where cac:TaxTotal/cac:TaxSubtotal/cac:TaxCategory/cbc:TaxExemptionReasonCode does not have a coresponding cbc:TaxExemptionReason.
 -Corrected a bug where cac:PaymentMeans didn't show if there was no cac:PaymentMeans/cac:PayeeFinancialAccount
