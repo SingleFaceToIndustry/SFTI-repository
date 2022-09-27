@@ -798,6 +798,11 @@ If remittance information is to be mapped to the End To End Identification field
 		<Definition>The outstanding amount that is requested to be paid.</Definition>
 		<Description>This amount is the Invoice total amount with VAT minus the paid amount that has been paid in advance. The amount is zero in case of a fully paid Invoice. The amount may be negative; in that case the Seller owes the amount to the Buyer.</Description>
 	</BusinessTerm>
+	<BusinessTerm id="BT-115-1">
+		<TermName>Amount due for payment</TermName>
+		<Definition>The outstanding amount that is requested to be paid.</Definition>
+		<Description>This amount is the Invoice total amount with VAT minus the paid amount that has been paid in advance. The amount is zero in case of a fully paid Invoice. The amount may be negative; in that case the Seller owes the amount to the Buyer.</Description>
+	</BusinessTerm>
 	<BusinessTerm id="BG-23">
 		<TermName>VAT BREAKDOWN</TermName>
 		<Definition>A group of business terms providing information about VAT breakdown by different categories, rates and exemption reasons</Definition>

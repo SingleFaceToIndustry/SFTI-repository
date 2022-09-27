@@ -189,14 +189,49 @@ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaMo
     <xsl:param name="string"/>
     <xsl:choose>
         <xsl:when test="contains($string,'&#10;')">
-            <xsl:value-of select="substring-before($string,'&#10;')"/>
+            <xsl:call-template name="replace">
+                <xsl:with-param name="string" select="substring-before($string,'&#10;')"/>
+            </xsl:call-template>
             <br/>
             <xsl:call-template name="replace">
                 <xsl:with-param name="string" select="substring-after($string,'&#10;')"/>
             </xsl:call-template>
         </xsl:when>
         <xsl:otherwise>
-            <xsl:value-of select="$string"/>
+			<xsl:choose>
+				<xsl:when test="string-length($string) &gt; 60"> <!--string longer than 60 chars-->
+					<xsl:choose>
+						<xsl:when test="contains($string,' ')"> <!--string contains blanks-->
+							<xsl:choose>
+								<xsl:when test="string-length(substring-before($string,' ')) &gt; 60"><!--string first word longer than 60-->
+									<xsl:value-of select="substring($string, 1, 60)"/>
+									<br/>
+									<xsl:call-template name="replace">
+										<xsl:with-param name="string" select="substring($string, 61, string-length())"/>
+									</xsl:call-template>
+								</xsl:when>
+								<xsl:otherwise>
+								<!-- string first word shorter than 60-->
+								<xsl:value-of select="concat(substring-before($string,' '),' ')"/>
+								<xsl:call-template name="replace">
+										<xsl:with-param name="string" select="substring-after($string,' ')"/>
+									</xsl:call-template>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:when>
+						<xsl:otherwise> <!--string without spaces-->
+							<xsl:value-of select="substring($string, 1, 60)"/>
+							<br/>
+							<xsl:call-template name="replace">
+								<xsl:with-param name="string" select="substring($string, 61, string-length())"/>
+							</xsl:call-template>
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:when>
+				<xsl:otherwise> <!-- string shorter than 60-->
+					<xsl:value-of select="$string"/>
+				</xsl:otherwise>
+			</xsl:choose>
         </xsl:otherwise>
     </xsl:choose>
 </xsl:template>

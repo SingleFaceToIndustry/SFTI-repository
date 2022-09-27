@@ -24,6 +24,15 @@
 		<Row>
 			
 			<Value ColumnRef="code">
+				<SimpleValue>71</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Request for payment</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
 				<SimpleValue>80</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
@@ -51,10 +60,55 @@
 		<Row>
 			
 			<Value ColumnRef="code">
+				<SimpleValue>102</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Tax notification</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>218</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Final payment request based on completion of work</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>219</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Payment request for completed units</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>331</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Commercial invoice which includes a packing list</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
 				<SimpleValue>380</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Commercial invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>382</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Commission note</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -78,6 +132,15 @@
 		<Row>
 			
 			<Value ColumnRef="code">
+				<SimpleValue>388</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Tax invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
 				<SimpleValue>393</SimpleValue>
 			</Value>
 			<Value ColumnRef="name">
@@ -91,6 +154,15 @@
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Consignment invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>553</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Forwarder's invoice discrepancy report</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -118,6 +190,51 @@
 			</Value>
 			<Value ColumnRef="name">
 				<SimpleValue>Freight invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>817</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Claim notification</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>870</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Consular invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>875</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Partial construction invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>876</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Partial final construction invoice</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			
+			<Value ColumnRef="code">
+				<SimpleValue>877</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Final construction invoice</SimpleValue>
 			</Value>
 		</Row>
 		<Row>
@@ -165,5 +282,6 @@
 				<SimpleValue>Forwarder's credit note</SimpleValue>
 			</Value>
 		</Row>
+	
 	</SimpleCodeList>
 </CodeList>

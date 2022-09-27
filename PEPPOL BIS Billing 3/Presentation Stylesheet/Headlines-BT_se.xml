@@ -381,6 +381,9 @@
 	<BusinessTerm id="BT-115">
 		<TermName>Belopp att betala</TermName>
 	</BusinessTerm>
+	<BusinessTerm id="BT-115-1">
+		<TermName>Belopp att erhålla</TermName>
+	</BusinessTerm>
 	<BusinessTerm id="BG-23">
 		<TermName>SKATTESAMMANRÄKNING</TermName>
 	</BusinessTerm>

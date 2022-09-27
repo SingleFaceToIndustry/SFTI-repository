@@ -1,4 +1,10 @@
-﻿Change-log Stylesheet version 1.0.8
+﻿
+Change-log Stylesheet version 1.0.9
+-Added ability to use bt-115-1 to distinguish between Amount due for payment in invoice and credit note.
+-Added row break in note field to ensure format of the stylesheet
+-Added support in english version of stylesheet for UNCL1001 new codes.
+
+Change-log Stylesheet version 1.0.8
 -Added functionality to display decimals on currency values below 1.
 
 Change-log Stylesheet version 1.0.7
@@ -23,9 +29,6 @@ Change-log Stylesheet version 1.0.5
 -Added Swedish codes for UNCL1153
 -Added Swedish codes for UNECE
 -Corrected codelists in Swedish and English to pick up UNECE recommendation 21 as prefixed with "X"
-
-
-
 
 
 
