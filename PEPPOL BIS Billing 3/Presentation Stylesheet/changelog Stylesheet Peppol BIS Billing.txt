@@ -1,7 +1,7 @@
-﻿Change-log Stylesheet version 1.1.0
--Added Support for order messages 
--Added support for order response messages
--Added Support for Catalogue messages
+Change-log Stylesheet version 1.1.0
+-Added Support for order messages (from now on with its own change-log starting from version 1.0)
+-Added support for order response messages (from now on with its own change-log starting from version 1.0)
+-Added Support for Catalogue messages (from now on with its own change-log starting from version 1.0)
 
 
 

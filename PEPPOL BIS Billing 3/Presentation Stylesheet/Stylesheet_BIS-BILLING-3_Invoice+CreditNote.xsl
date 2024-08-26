@@ -2,12 +2,9 @@
 <!--
 ******************************************************************************************************************
 
-		PEPPOLInstance Documentation - reference stylesheet 	Version of this reference stylesheet: 1.0 [also c.f. Headlines.xml, TechFooter3]
-
-		title= PEPPOL_BIS_HTML Stylesheet_2014.xsl	
+		title= Peppol BIS Billing, Invoice and Credit Note transaction - Reference stylesheet
+		Version of this reference stylesheet: 1.1
 		publisher= "SFTI tekniska kansli"
-		Creator= SFTI/SL
-		created= 2018-XX-XX
 		conformsTo= UBL-Invoice-2.1.xsd and UBL-CreditNote-2.1.xsd
 		description= "Stylesheet for PEPPOL BIS BILLING 3, covering Invoice and Credit Note.
 		This stylesheet was drawn up to serve developers and end-users as a neutral reference tool when
@@ -24,9 +21,8 @@
 		likely to be used also in test environments, some basic validation features have been included, 
 		and any consequential errors are displayed as needed."
 		
-		all terms derived from http://dublincore.org/documents/dcmi-terms/
 
-		Derived from work by OIOUBL, Denmark. For more information, see www.sfti.se or email tekniskt.kansli@skl.se
+		Derived from work by OIOUBL, Denmark. For more information, see www.sfti.se
 		
 ******************************************************************************************************************
 -->
@@ -294,7 +290,7 @@ padding-top:1vw;
 													<item><xsl:value-of select="cbc:PaymentDueDate"/></item>
 												</xsl:if>
 											</xsl:for-each-->
-									<xsl:value-of select="cac:PaymentMeans[cbc:PaymentDueDate][1]/cbc:PaymentDueDate"/>
+									<xsl:value-of select="cac:PaymentMeans[1]/cbc:PaymentDueDate"/>
 									</xsl:if>
 									<xsl:if test="local-name(.) = 'Invoice'">
 										<xsl:value-of select="cbc:DueDate"/>
@@ -356,12 +352,7 @@ padding-top:1vw;
 									<xsl:when test="cac:LegalMonetaryTotal/cbc:PayableAmount &lt; '0'">
 										<p align="left" style="color:red">
 											<b>
-											<xsl:if test="local-name(.)  = 'Invoice'">
 												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
-											<xsl:if test="local-name(.)  = 'CreditNote'">
-											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115-1'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
 											</b>
 											<br/>
 											<!-- Inserting Total Payable amount  -->
@@ -372,13 +363,8 @@ padding-top:1vw;
 									</xsl:when>
 									<xsl:otherwise>
 										<p align="left">
-											<b><xsl:if test="local-name(.)  = 'Invoice'">
+											<b>
 												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
-											<xsl:if test="local-name(.)  = 'CreditNote'">
-											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115-1'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
-												
 											</b>
 											<br/>
 											<!-- Inserting Total Payable amount  -->
@@ -652,7 +638,7 @@ padding-top:1vw;
 										</th>
 										<th valign="top" align="right" width="20%">
 											<b>
-												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-92'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
+												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-99'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
 											</b>
 										</th>
 									</tr>
@@ -717,7 +703,7 @@ padding-top:1vw;
 										</th>
 										<th valign="top" align="right" width="20%">
 											<b>
-												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-99'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
+												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-92'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
 											</b>
 										</th>
 									</tr>
@@ -929,12 +915,7 @@ padding-top:1vw;
 							<xsl:when test="cac:LegalMonetaryTotal/cbc:PayableAmount &lt; '0'">
 								<div class="col-6">
 									<h2 align="left" style="color:red">
-										<xsl:if test="local-name(.)  = 'Invoice'">
-												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
-											<xsl:if test="local-name(.)  = 'CreditNote'">
-											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115-1'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
+										<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 									</h2>
 								</div>
 								<div class="col-6">
@@ -946,12 +927,7 @@ padding-top:1vw;
 							<xsl:otherwise>
 								<div class="col-6">
 									<h2 align="left">
-										<xsl:if test="local-name(.)  = 'Invoice'">
-												<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
-											<xsl:if test="local-name(.)  = 'CreditNote'">
-											<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115-1'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
-											</xsl:if>
+										<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-115'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 									</h2>
 								</div>
 								<div class="col-6">
@@ -983,7 +959,7 @@ padding-top:1vw;
 							<h3>
 								<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BG-16'"/><xsl:with-param name="Colon-Suffix" select="'false'"/></xsl:call-template>
 							</h3>
-							<xsl:if test="cac:PaymentMeans !=''">
+							<xsl:if test="cac:PaymentMeans/cac:PayeeFinancialAccount !=''">
 								<table>
 									<tr>
 										<th align="left" valign="top">
@@ -1152,11 +1128,8 @@ padding-top:1vw;
 						<div class="col-12">
 							<p>
 							<small>
-								<xsl:if test="cbc:UBLVersionID">
-									UBLversionID: <xsl:value-of select="cbc:UBLVersionID"/>
-									<br/>
-								</xsl:if>
-								
+								UBLVersion: <xsl:value-of select="cbc:UBLVersionID"/>
+								<br/>
 								<xsl:call-template name="LabelName"><xsl:with-param name="BT-ID" select="'BT-23'"/><xsl:with-param name="Colon-Suffix" select="'true'"/></xsl:call-template>
 								<xsl:value-of select="cbc:ProfileID"/>
 								<br/>
@@ -1184,7 +1157,7 @@ padding-top:1vw;
 										[<xsl:value-of select="cac:AccountingCustomerParty/cac:Party/cbc:EndpointID/@schemeID"/>]
 										</xsl:if>
 									
-					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.0.9<br/>
+					<br/>This invoice visualization is generated from SFTI BIS Billing 3 XSL Stylesheet Version 1.1.0<br/>
 					This stylesheet uses business terms defined the CEN/EN16931-1 and is reproduced with permission from CEN. CEN bears no liability from the use of the content and implementation of this stylesheet and gives no warranties expressed or implied for any purpose.<br/>
 					
 					

@@ -573,4 +573,1165 @@
 	<BusinessTerm id="BT-161">
 		<TermName>Värde</TermName>
 	</BusinessTerm>
+	
+	
+	  <!-- Order -->
+	  
+	<BusinessTerm id="tir01-001">
+		<TermName>Specifikationsidentifiering</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-002">
+		<TermName>Identifierare för affärsprocesstyp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-003">
+		<TermName>Orderidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p001">
+		<TermName>Försäljningsorderreferens</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-004">
+		<TermName>Datum för orderutfärdande</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-005">
+		<TermName>tidpunkt för orderutfärdande</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-153">
+		<TermName>Indikation om konsignationsorder</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-006">
+		<TermName>Textuell anteckning på dokumentnivå</TermName>
+		<DisplayName>ANTECKNING</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-007">
+		<TermName>Valuta</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p002">
+		<TermName>Köparens kontakt</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-008">
+		<TermName>Köparens redovisningssträng</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ValidityPeriod">
+		<TermName>Giltighetsperiod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-009">
+		<TermName>Slutdatum för giltighet på order</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_QuotationReference">
+		<TermName>Offertreferens</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-010">
+		<TermName>Offertdokumentreferens</TermName>
+		<DisplayName>Offertreferens</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Order_Reference">
+		<TermName>Orderreferens</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-011">
+		<TermName>Initial orderreferens</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Originator_document">
+		<TermName>Initierande dokument</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-012">
+		<TermName>Referens till initierande dokument</TermName>
+		<DisplayName>Initierande referens</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_AdditonalDocuments">
+		<TermName>Ytterligare dokument</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-154">
+		<TermName>Dokumentidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-016">
+		<TermName>Dokumentbeskrivning</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Attachments">
+		<TermName>Bilaga(or)</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-017">
+		<TermName>Bifogat dokument</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ExternalReference">
+		<TermName>Externt referensnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-018">
+		<TermName>URI för externa dokument</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-019">
+		<TermName>Kontraktsreferens</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-021">
+		<TermName>Köparens elektroniska adress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-022">
+		<TermName>Köparens identifikation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-023">
+		<TermName>Köparens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-032">
+		<TermName>Adressrad 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-027">
+		<TermName>Adressrad 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-031">
+		<TermName>Stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-024">
+		<TermName>Postnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-141">
+		<TermName>Landsområde</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p003">
+		<TermName>Adressrad 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-033">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-034">
+		<TermName>Köparens skatteidentifikation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p004">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-044">
+		<TermName>Köparens juridiska registreringsnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-043">
+		<TermName>Köparens juridiska registreringsidentifikation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-045">
+		<TermName>Köparens juridiska registreringsadress stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-046">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-050">
+		<TermName>Kontaktpersonens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-047">
+		<TermName>Kontaktnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-049">
+		<TermName>Kontaktmejladress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-058">
+		<TermName>Säljarens elektronisk adress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-059">
+		<TermName>Säljarens partsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-060">
+		<TermName>Partens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-060">
+		<TermName>Säljarens handelsnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-063">
+		<TermName>Adressrad 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-064">
+		<TermName>Adressrad 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-065">
+		<TermName>Stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-068">
+		<TermName>Postnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-142">
+		<TermName>Landsterritorium</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p005">
+		<TermName>Adressrad 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-069">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-044">
+		<TermName>Säljarens registreringsnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-043">
+		<TermName>Säljarens registreringsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-045">
+		<TermName>Säljarens registreringsadress stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-046">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-074">
+		<TermName>Kontaktpersonens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-077">
+		<TermName>Kontaktpersonens telefonnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-076">
+		<TermName>Kontaktpersonens e-postadress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-081">
+		<TermName>Ursprunglig identifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-082">
+		<TermName>Ursprungligt namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-086">
+		<TermName>Kontaktpersonens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-083">
+		<TermName>Kontaktpersonens telefonnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-085">
+		<TermName>Kontaktpersonens e-postadress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_InvoiceeParty">
+		<TermName>Fakturamottagande part</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-157">
+		<TermName>Fakturamottagande part elektronisk adress</TermName>
+		<DisplayName>Fakturamottagande elektronisk adress</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-156">
+		<TermName>Fakturamottagande partsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-155">
+		<TermName>Fakturamottagande parts namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p013">
+		<TermName>Adressrad 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p014">
+		<TermName>Adressrad 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p009">
+		<TermName>Stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p015">
+		<TermName>Postnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p016">
+		<TermName>Landsterritorium</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p006">
+		<TermName>Adressrad 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p017">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p018">
+		<TermName>Fakturamottagande momsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p003">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-159">
+		<TermName>Fakturamottagande lagliga registreringsnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-158">
+		<TermName>Företagsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-160">
+		<TermName>Stadnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-161">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_InvoiceeContactInfo">
+		<TermName>Kontakt</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p025">
+		<TermName>Kontaktpersonens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p026">
+		<TermName>Kontaktpersonens telefonnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p027">
+		<TermName>Kontaktpersonens e-postadress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-169">
+		<TermName>Leveransplatsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p028">
+		<TermName>Leveransplatsens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-092">
+		<TermName>Adressrad 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-093">
+		<TermName>Adressrad 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-096">
+		<TermName>Stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-097">
+		<TermName>Postnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-144">
+		<TermName>Landsterritorium</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p007">
+		<TermName>Adressrad 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-098">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_RequestedDeliveryPeriod">
+		<TermName>Önskad leveransperiod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResponse_DeliveryPeriod">
+		<TermName>Leveransperiod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-099">
+		<TermName>Period startdatum</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-100">
+		<TermName>Period slutdatum</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_DeliveryParty">
+		<TermName>Leveransparti</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-101">
+		<TermName>Leveransparti identifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-102">
+		<TermName>Leveransparti namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_FinalDeliveryAddress">
+		<TermName>Slutlig leveransadress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p029">
+		<TermName>Adressrad 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p030">
+		<TermName>Adressrad 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p031">
+		<TermName>Stad</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p032">
+		<TermName>Postnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p033">
+		<TermName>Landsterritorium</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p034">
+		<TermName>Adressrad 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p035">
+		<TermName>Landkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-103">
+		<TermName>Kontaktpersonens namn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-104">
+		<TermName>Kontaktpersonens telefonnummer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-106">
+		<TermName>Kontaktpersonens e-postadress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p036">
+		<TermName>Paketerikett</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_TermsOfDelivery">
+		<TermName>Leveransvillkor</TermName>
+		<DisplayName>LEVERANSVILLKOR</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-107">
+		<TermName>Leveransvillkor identifierare</TermName>
+		<DisplayName>INCOTERMS/ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-108">
+		<TermName>Leverans speciella villkor</TermName>
+		<DisplayName>Speciella villkor</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Leveransplatsinformation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-109">
+		<TermName>Leveransvillkor plats</TermName>
+		<DisplayName>Plats</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_TermsOfPayment">
+		<TermName>Betalningsvillkor</TermName>
+		<DisplayName>BETALNINGSVILLKOR</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p010">
+		<TermName>Betalningsvillkor</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Tillåtelse och avgiftsinformation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p002">
+		<TermName>Tillåtelse Avgiftsindikator</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p008">
+		<TermName>Anledningskod för tillåtelse eller avgift på dokumentnivå</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-112">
+		<TermName>Orsak till tillåtelse och avgifter</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p009">
+		<TermName>Procentsats för tillåtelse eller avgift på dokumentnivå</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-113">
+		<TermName>Belopp för tillåtelse och avgift</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p010">
+		<TermName>Grundbelopp för tillåtelse eller avgift på dokumentnivå</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Skattekategori</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p011">
+		<TermName>Skattekategorikod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p012">
+		<TermName>Skattesats</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Skattesysteminformation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p013">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Skattetotal</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-114">
+		<TermName>Skattetotalbelopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-115">
+		<TermName>Summa av radbelopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-145">
+		<TermName>Belopp på dokumenttotalen utan skatt</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-147">
+		<TermName>Belopp på dokumenttotalen inklusive skatt</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-116">
+		<TermName>Summa av tillåtelser på dokumentnivå</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-117">
+		<TermName>Summa av avgifter på dokumentnivå</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-148">
+		<TermName>Förskottsbetalda belopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-146">
+		<TermName>Avrundning av dokumenttotalen</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-118">
+		<TermName>Belopp att betala</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_OrderLine">
+		<TermName>ORDERRADER</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResp_Line">
+		<TermName>ORDERSVARSRADER</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-123">
+		<TermName>Orderradsanteckning</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-120">
+		<TermName>Radpost identifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-132">
+		<TermName>Beställd mängd</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-128">
+		<TermName>Order radbelopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-124">
+		<TermName>Delleverans indikator</TermName>
+		<DisplayName>Delleverans tillåten</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-125">
+		<TermName>Köparens redovisningssträng</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p037">
+		<TermName>Leveransplats-ID</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-126">
+		<TermName>Periodens startdatum</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-127">
+		<TermName>Periodens slutdatum</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_OriginatorInformation">
+		<TermName>Upphovsmannens information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-121">
+		<TermName>Orderrad upphovsmannen parti ID</TermName>
+		<DisplayName>ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-122">
+		<TermName>Orderrad upphovsmannen parti namn</TermName>
+		<DisplayName>Namn</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p014">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p015">
+		<TermName>Radnivå rabatt eller avgift anledningskod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p016">
+		<TermName>Radnivå rabatt eller avgift anledning</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p017">
+		<TermName>Radnivå rabatt eller avgift procentandel</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p018">
+		<TermName>Radnivå rabatt eller avgift belopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p019">
+		<TermName>Radnivå rabatt eller avgift grundbelopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-130">
+		<TermName>Artikelpris</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-131">
+		<TermName>Artikelpris baskvantitet</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p004">
+		<TermName>Rabattavgiftsindikator</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p006">
+		<TermName>Rabattbelopp</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-152">
+		<TermName>Artikelns prislistpris</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-133">
+		<TermName>Artikelbeskrivning</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-135">
+		<TermName>Artikelnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p022">
+		<TermName>Köpares artikelidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p020">
+		<TermName>Säljarens artikelidentifierare</TermName>
+		<DisplayName>Säljares ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-136">
+		<TermName>Artikelstandardidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ItemSpecReference">
+		<TermName>Artikelspecifikationsreferens</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p007">
+		<TermName>Dokumentreferensidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-149">
+		<TermName>Artikelklassificeringskod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-150">
+		<TermName>Artikelns skattekategorikod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-170">
+		<TermName>Radens skattesats</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p021">
+		<TermName>Egendomsklassificering</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-138">
+		<TermName>Artikelegenskapsnamn</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p024">
+		<TermName>Artikelegenskapskod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-139">
+		<TermName>Artikelegenskapsvärde</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p020">
+		<TermName>Artikelegenskapsenhet</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p021">
+		<TermName>Egendomsklassificering</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ItemInstanceInformation">
+		<TermName>Artikelinstansinformation</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p023">
+		<TermName>Artikel serienummer identifiering</TermName>
+		<DisplayName>Serienummer-ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p022">
+		<TermName>Artikel partinummer identifiering</TermName>
+		<DisplayName>Lottnummer-ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-204">
+		<TermName>Svar förtydligande</TermName>
+		<DisplayName>Svar</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-132">
+		<TermName>Mängd</TermName>
+		<DisplayName>Mängd</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-p005">
+		<TermName>Maximalt backorderbelopp</TermName>
+		<DisplayName>Backorder</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResponse_Substituted">
+		<TermName>Ersatt artikel</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-201">
+		<TermName>Order linje referens</TermName>
+		<DisplayName>Order rad</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Item">
+		<TermName>Artikel</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResponse_ItemTax">
+		<TermName>Artikelmoms</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-003">
+		<TermName>Svarsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-004">
+		<TermName>Svarsutgivningsdatum</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-001">
+		<TermName>Svarsidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-002">
+		<TermName>Svarsutgivningsdatum</TermName>
+		<DisplayName>Svars utgivningsdatum/tid</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-004">
+		<TermName>Fakturasvarsnote</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-009">
+		<TermName>Sändarens parti elektroniska adress</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-020">
+		<TermName>Fakturaidentifierare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-019">
+		<TermName>Fakturautgivningsdatum</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-021">
+		<TermName>Fakturatypkod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-StatusLine">
+		<TermName>Förtydligande information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-015">
+		<TermName>Förtydligandekod</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-015-Action">
+		<TermName>Åtgärd</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-015-Reason">
+		<TermName>Anledning</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-016">
+		<TermName>Förtydligandebeskrivning</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Condition">
+		<TermName>Detaljer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Sender">
+		<TermName>SändareParti</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Receiver">
+		<TermName>Mottagarparti</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Buyer">
+		<TermName>Köpare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Seller">
+		<TermName>Säljare</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-PartyID">
+		<TermName>PartsID</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-EndPointID">
+		<TermName>Endpoint-ID</TermName>
+	</BusinessTerm>
+	
+	
+	<!-- Catalogue -->
+	<BusinessTerm id="tir19-002">
+    <TermName>Specifikationsidentifiering</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-001">
+    <TermName>Identifierare för affärsprocesstyp</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-003">
+    <TermName>Katalogidentifierare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-047">
+    <TermName>Katalogåtgärdskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-005">
+    <TermName>Katalognamn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-006">
+    <TermName>Katalogutgivningsdatum</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-004">
+    <TermName>Katalogversion</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-007">
+    <TermName>Giltighetsdatum start</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-008">
+    <TermName>Giltighetsdatum slut</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-028">
+    <TermName>Kontraktsidentifierare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-019">
+    <TermName>Källkatalogidentifierare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-009">
+    <TermName>Elektronisk adress för leverantörspart</TermName>
+    <DisplayName>PeppolID</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-010">
+    <TermName>Katalogleverantörsidentifierare</TermName>
+    <DisplayName>PartsID</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031">
+    <TermName>Leverantörs postadress</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029a">
+    <TermName>Adressrad 1</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029b">
+    <TermName>Adressrad 2</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029c">
+    <TermName>Stad</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029d">
+    <TermName>Postnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029e">
+    <TermName>Landets uppdelning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029f">
+    <TermName>Katalogleverantörens landskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-011">
+    <TermName>Leverantörs juridiska registreringsnamn</TermName>
+    <DisplayName>Legalt namn</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p028a">
+    <TermName>Leverantörs juridisk registreringsidentifierare</TermName>
+    <DisplayName>LeverantörsID</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p028c">
+    <TermName>Leverantörs juridisk registreringsstad</TermName>
+    <DisplayName>Leverantörerns stad</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p028d">
+    <TermName>Katalogleverantörens landskod</TermName>
+    <DisplayName>Leverantörens landskod</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-012">
+    <TermName>Mottagarens elektroniska adress</TermName>
+    <DisplayName>PeppolID</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-013">
+    <TermName>Katalogmottagare identifierare</TermName>
+    <DisplayName>PartsID</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p029">
+    <TermName>Postadress</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031a">
+    <TermName>Adressrad 1</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031b">
+    <TermName>Adressrad 2</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031c">
+    <TermName>Stad</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031d">
+    <TermName>Postnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031e">
+    <TermName>Landets uppdelning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p031f">
+    <TermName>Landets kod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-014">
+    <TermName>Mottagarens juridiska registreringsnamn</TermName>
+    <DisplayName>Legalt namn</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p030a">
+    <TermName>Mottagarens juridiska registreringsidentifierare</TermName>
+    <DisplayName>ID</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p030c">
+    <TermName>Mottagarens juridiska registreringsstad</TermName>
+    <DisplayName>Registrerad stad</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p030d">
+    <TermName>Mottagarens juridiska registreringsland</TermName>
+    <DisplayName>Registrerat land</DisplayName>
+</BusinessTerm>
+<BusinessTerm id="tir19-015">
+    <TermName>Leverantörs elektroniska adress</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-016">
+    <TermName>Katalogleverantörsidentifierare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-017">
+    <TermName>Katalogleverantörs handelsnamn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-021">
+    <TermName>Adressrad 1</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-022">
+    <TermName>Adressrad 2</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-023">
+    <TermName>Stad</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-024">
+    <TermName>Postnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-025">
+    <TermName>Landsuppdelning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-026">
+    <TermName>Landskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-027">
+    <TermName>Kontaktpersonens namn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-030">
+    <TermName>Kontakttelefonnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-031">
+    <TermName>Kontaktmejladress</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-054">
+    <TermName>Kunds elektroniska adress</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-055">
+    <TermName>Katalogkundsidentifierare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-079">
+    <TermName>Katalogkunds handelsnamn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p041">
+    <TermName>Adressrad 1</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p042">
+    <TermName>Adressrad 2</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p043">
+    <TermName>Stad</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p044">
+    <TermName>Postnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p045">
+    <TermName>Landets uppdelning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p047">
+    <TermName>Adressrad 3</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p046">
+    <TermName>Landets kod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-080">
+    <TermName>Kontaktpersonens namn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-082">
+    <TermName>Kontakttelefonnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-083">
+    <TermName>Kontaktmejladress</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p019">
+    <TermName>Allmänna betalningsvillkor</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-032">
+    <TermName>Radnr</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-033">
+    <TermName>Radåtgärdskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-034">
+    <TermName>Beställningsindikator</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-035">
+    <TermName>Beställningsenhet</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-061">
+    <TermName>Artikel nettomängd</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-037">
+    <TermName>Beställningskvantitetsökning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-038">
+    <TermName>Minsta beställningskvantitet</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-039">
+    <TermName>Högsta beställningskvantitet</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-040">
+    <TermName>Garantinformation på radnivå</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-102">
+    <TermName>Förpackningsnivå</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-041">
+    <TermName>Radens giltighetsdatum start</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-042">
+    <TermName>Radens giltighetsdatum slut</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-043">
+    <TermName>jämförpris</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-044">
+    <TermName>Enhet för jämförpris</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-045">
+    <TermName>Artikel som ingår i denna artikel</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-046">
+    <TermName>Antal av artikeln</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-118">
+    <TermName>Tillbehör, artikelnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-119">
+    <TermName>Antal av tillbehörsartikeln</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-048">
+    <TermName>Nödvändig artikel</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-049">
+    <TermName>Antal av nödvändiga artikeln</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-120">
+    <TermName>Ersatt artikel</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-121">
+    <TermName>Antal av ersatt artikel</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-053">
+    <TermName>Ledtid från beställning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p025">
+    <TermName>Kvantitet för stafflat pris</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p026">
+    <TermName>Mängdtak</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-108">
+    <TermName>Adressrad 1</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-109">
+    <TermName>Adressrad 2</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-110">
+    <TermName>Stad</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-060">
+    <TermName>Stad</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-111">
+    <TermName>Postnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-062">
+    <TermName>Landets uppdelning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-112">
+    <TermName>Landets uppdelning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-063">
+    <TermName>Landskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-s113">
+    <TermName>Landskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-051">
+    <TermName>Artikelpris</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p024">
+    <TermName>Basantal för artikelpris</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-093">
+    <TermName>Pristyp</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p035">
+    <TermName>Beställningsenheten faktorförhållande</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-056">
+    <TermName>Prisets giltighetsdatum start</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-057">
+    <TermName>Prisets giltighetsdatum slut</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-067">
+    <TermName>Artikelbeskrivning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-066">
+    <TermName>Paketerad mängd</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-036">
+    <TermName>Totalt antal konsumetenheter</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-078">
+    <TermName>Artikelnamn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-064">
+    <TermName>Sökord</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p018">
+    <TermName>Varumärkesnamn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p040">
+    <TermName>Köparens artikelnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-091">
+    <TermName>Säljarens artikelnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-114">
+    <TermName>Tillverkarens artikelnummer</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-092">
+    <TermName>GTIN</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-105">
+    <TermName>Bilaga ID</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-086a">
+    <TermName>Typ av bilaga</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-106">
+    <TermName>Beskrivning av bilaga</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-107">
+    <TermName>Medföljande objekt</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-086">
+    <TermName>Länk till bilaga</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-071">
+    <TermName>Artikelursprungsland</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-069">
+    <TermName>Artikelklassificeringskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p027">
+    <TermName>Indikator avtalad artikel</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-072">
+    <TermName>Farligt artikel UNDG-kod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-073">
+    <TermName>Farlig klassidentifikator</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-094">
+    <TermName>Skattekategori kod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-050">
+    <TermName>Skatt, procent</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p048">
+    <TermName>Skattetyp</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-076">
+    <TermName>Artikelegenskapsnamn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p039">
+    <TermName>Artikelegenskapskod</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-077">
+    <TermName>Artikelegenskapsvärde</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-070">
+    <TermName>Artikelegenskapsenhet</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-103">
+    <TermName>Egenskapsklassificering</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-075">
+    <TermName>Tillverkare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-058">
+    <TermName>Artikels bäst före datum</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-059">
+    <TermName>Artikelbatchidentifierare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-087">
+    <TermName>Artikelmärkning namn</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-089">
+    <TermName>Artikelmärkning typ</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-088">
+    <TermName>Artikelmärkning värde</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-090">
+    <TermName>Artikelmärkning referens</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-104">
+    <TermName>Måttyp ID</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-098">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-099">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-100">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-101">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p037">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p017">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p016">
+    <TermName>Mått</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-p038">
+    <TermName>Dimensionbeskrivning</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-115">
+    <TermName>Minsta lagringstemperatur eller minsta lagringsfuktighet</TermName>
+</BusinessTerm>
+<BusinessTerm id="OP-T19-015">
+    <TermName>Minsta lagringstemperatur eller minsta lagringsfuktighet</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-116">
+    <TermName>Högsta lagringstemperatur eller högsta lagringsfuktighet</TermName>
+</BusinessTerm>
+<BusinessTerm id="OP-T19-014">
+    <TermName>Högsta lagringstemperatur eller högsta lagringsfuktighet</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-ReceiverParty">
+    <TermName>Katalogmottagare</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-ProviderParty">
+    <TermName>Katalogleverantör</TermName>
+</BusinessTerm>
+<BusinessTerm id="tir19-catalogueline">
+		<TermName>Katalogvarudetaljer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-additionalitemproperty">
+		<TermName>Egenskap/Attribut</TermName>
+	</BusinessTerm>
 </SemanticModel>
