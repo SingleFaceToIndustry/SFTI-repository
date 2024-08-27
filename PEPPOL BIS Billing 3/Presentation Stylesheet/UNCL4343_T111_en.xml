@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CodeList xmlns="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+  <Identification>
+    <ShortName>UNCL4343</ShortName>
+    <Version/>
+    <CanonicalUri/>
+    <CanonicalVersionUri/>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AB</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Message acknowledgement</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AP</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Accepted</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RE</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Rejected</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IP</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>In process</SimpleValue>
+      </Value>
+    </Row>  	
+	<Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UQ</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Under query</SimpleValue>
+      </Value>
+    </Row>  
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CA</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Conditionally accepted</SimpleValue>
+      </Value>
+    </Row>    
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PD</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Paid</SimpleValue>
+      </Value>
+    </Row>  	
+  </SimpleCodeList>
+</CodeList>

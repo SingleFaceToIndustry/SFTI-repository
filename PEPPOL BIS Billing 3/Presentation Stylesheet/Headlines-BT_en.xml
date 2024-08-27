@@ -1138,4 +1138,1150 @@ If remittance information is to be mapped to the End To End Identification field
 		<Description>Such as “Red”. </Description>
 		<DisplayName>Attribute value</DisplayName>
 	</BusinessTerm>
+	<!--Order-->
+	<BusinessTerm id="tir01-001">
+		<TermName>Specification identification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-002">
+		<TermName>Business process type identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-003">
+		<TermName>Order identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p001">
+		<TermName>Sales order reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-004">
+		<TermName>Order issue date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-005">
+		<TermName>Order issue time</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-153">
+		<TermName>Consignment order indication</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-006">
+		<TermName>Document level textual note</TermName>
+		<DisplayName>NOTE</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-007">
+		<TermName>Currency</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p002">
+		<TermName>Buyer contact</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-008">
+		<TermName>Buyers accounting string</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ValidityPeriod">
+		<TermName>Validity period</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-009">
+		<TermName>Order validity end date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_QuotationReference">
+		<TermName>Quotation reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-010">
+		<TermName>Quotation document reference</TermName>
+		<DisplayName>Quotation reference</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Order_Reference">
+		<TermName>Order reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-011">
+		<TermName>Initial Order reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Originator_document">
+		<TermName>Originator document </TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-012">
+		<TermName>Originator document reference</TermName>
+		<DisplayName>Originator reference</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_AdditonalDocuments">
+		<TermName>Additional documents</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-154">
+		<TermName>Document identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-016">
+		<TermName>Document description</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Attachments">
+		<TermName>Attachment(s)</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-017">
+		<TermName>Attached document</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ExternalReference">
+		<TermName>External reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-018">
+		<TermName>External document URI</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-019">
+		<TermName>Contract reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-021">
+		<TermName>Buyer party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-022">
+		<TermName>Buyer party identification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-023">
+		<TermName>Buyer name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-032">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-027">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-031">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-024">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-141">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p003">
+		<TermName>Address line 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-033">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-034">
+		<TermName>Buyer TAX identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p004">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-044">
+		<TermName>Buyers legal registration name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-043">
+		<TermName>Buyers legal registration identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-045">
+		<TermName>Buyers legal registration address city name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-046">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-050">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-047">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-049">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-058">
+		<TermName>Seller party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-059">
+		<TermName>Seller party identification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-060">
+		<TermName>Party name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-060">
+		<TermName>Seller party trading name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-063">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-064">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-065">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-068">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-142">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p005">
+		<TermName>Address line 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-069">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-044">
+		<TermName>Seller legal registration name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-043">
+		<TermName>Seller legal registration identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-045">
+		<TermName>Sellers legal registration address city name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-046">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-074">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-077">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-076">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-081">
+		<TermName>Originator identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-082">
+		<TermName>Originator name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-086">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-083">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-085">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_InvoiceeParty">
+		<TermName>Invoicee party</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-157">
+		<TermName>Invoicee party electronic address</TermName>
+		<DisplayName>Invoicee electronci address</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-156">
+		<TermName>Invoicee identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-155">
+		<TermName>Invoicee name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p013">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p014">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p009">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p015">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p016">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p006">
+		<TermName>Address line 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p017">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p018">
+		<TermName>Invoicee TAX identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p003">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-159">
+		<TermName>Invoicee's Legal registration name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-158">
+		<TermName>Company identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-160">
+		<TermName>City name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-161">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_InvoiceeContactInfo">
+		<TermName>Contact</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p025">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p026">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p027">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-169">
+		<TermName>Delivery location ID</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p028">
+		<TermName>Delivery location name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-092">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-093">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-096">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-097">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-144">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p007">
+		<TermName>Address line 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-098">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_RequestedDeliveryPeriod">
+		<TermName>Requested delivery period </TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResponse_DeliveryPeriod">
+		<TermName>Delivery period </TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-099">
+		<TermName>Period start date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-100">
+		<TermName>Period end date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_DeliveryParty">
+		<TermName>Delivery party </TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-101">
+		<TermName>Delivery party identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-102">
+		<TermName>Delivery party name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_FinalDeliveryAddress">
+		<TermName>Final Delivery address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p029">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p030">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p031">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p032">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p033">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p034">
+		<TermName>Address line 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p035">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-103">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-104">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-106">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p036">
+		<TermName>Packing label</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_TermsOfDelivery">
+		<TermName>Terms of delivery</TermName>
+		<DisplayName>DELIVERY TERMS</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-107">
+		<TermName>Delivery terms identifier</TermName>
+		<DisplayName>INCOTERMS/ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-108">
+		<TermName>Delivery special terms</TermName>
+		<DisplayName>Special terms</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Delivery location information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-109">
+		<TermName>Delivery terms location</TermName>
+		<DisplayName>Location</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_TermsOfPayment">
+		<TermName>Payment terms</TermName>
+		<DisplayName>PAYMENT TERMS</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p010">
+		<TermName>Payment terms</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Allowance and charge information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p002">
+		<TermName>AllowanceChargeIndicator</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p008">
+		<TermName>Document level allowance or charge reason code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-112">
+		<TermName>Allowance and charges reason</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p009">
+		<TermName>Document level allowance or charge percentage</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-113">
+		<TermName>Allowance and charge amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p010">
+		<TermName>Document level allowance or charge base amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Tax category</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p011">
+		<TermName>TAX category code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p012">
+		<TermName>TAX rate</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Tax scheme information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p013">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="">
+		<TermName>Tax total</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-114">
+		<TermName>TAX total amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-115">
+		<TermName>Sum of line amounts</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-145">
+		<TermName>Document total without TAX</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-147">
+		<TermName>Document total including TAX</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-116">
+		<TermName>Sum of allowances on document level</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-117">
+		<TermName>Sum of charges on document level</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-148">
+		<TermName>Prepaid amounts</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-146">
+		<TermName>Rounding of document total</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-118">
+		<TermName>Payable amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_OrderLine">
+		<TermName>ORDER LINES</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResp_Line">
+		<TermName>ORDER RESPONSE LINES</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-123">
+		<TermName>Order line note</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-120">
+		<TermName>Line item identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-132">
+		<TermName>Ordered quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-128">
+		<TermName>Order line amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-124">
+		<TermName>Partial delivery indicator</TermName>
+		<DisplayName>Partial delivery allowed</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-125">
+		<TermName>Buyers accounting string</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p037">
+		<TermName>Delivery location ID</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-126">
+		<TermName>Period start date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-127">
+		<TermName>Period end date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_OriginatorInformation">
+		<TermName>Originator information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-121">
+		<TermName>Order line originator party ID</TermName>
+		<DisplayName>ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-122">
+		<TermName>Order line originator party name</TermName>
+		<DisplayName>Name</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p014">
+		<TermName/>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p015">
+		<TermName>Line level allowance or charge reason code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p016">
+		<TermName>Line level allowance or charge reason</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p017">
+		<TermName>Line level allowance or charge percentage</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p018">
+		<TermName>Line level allowance or charge amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p019">
+		<TermName>Line level allowance or charge base amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-130">
+		<TermName>Item price</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-131">
+		<TermName>Item price base quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p004">
+		<TermName>AllowanceChargeIndicator</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p006">
+		<TermName>Discount amount</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-152">
+		<TermName>Item list price</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-133">
+		<TermName>Item description</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-135">
+		<TermName>Item name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p022">
+		<TermName>Buyers item identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p020">
+		<TermName>The Sellers item identifier</TermName>
+		<DisplayName>Sellers ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-136">
+		<TermName>Item standard identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ItemSpecReference">
+		<TermName>Item specification reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p007">
+		<TermName>Document reference identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-149">
+		<TermName>Item classification code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-150">
+		<TermName>Item TAX category code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-170">
+		<TermName>Line TAX rate</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p021">
+		<TermName>Property classification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-138">
+		<TermName>Item property name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p024">
+		<TermName>Item property code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-139">
+		<TermName>Item property value</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p020">
+		<TermName>Item property unit of measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p021">
+		<TermName>Property classification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_ItemInstanceInformation">
+		<TermName>Item instance information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p023">
+		<TermName>Item serial identification</TermName>
+		<DisplayName>Serial ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir01-p022">
+		<TermName>Item lot identifier</TermName>
+		<DisplayName>Lot ID</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-204">
+		<TermName>Response clarification</TermName>
+		<DisplayName>Response</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-132">
+		<TermName>Quantity</TermName>
+		<DisplayName>Quantity</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-p005">
+		<TermName>Maximum backorder quantity</TermName>
+		<DisplayName>Backordered</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResponse_Substituted">
+		<TermName>Substituted item</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-201">
+		<TermName>Order line reference</TermName>
+		<DisplayName>Order line</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="Order_Item">
+		<TermName>Item</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OrderResponse_ItemTax">
+		<TermName>Item tax</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-003">
+		<TermName>Order response identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir76-004">
+		<TermName>Order response issue date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-001">
+		<TermName>Response identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-002">
+		<TermName>Response issue date</TermName>
+		<DisplayName>Response issue date/time</DisplayName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-004">
+		<TermName>Invoice response note</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-009">
+		<TermName>Sender party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-020">
+		<TermName>Invoice identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-019">
+		<TermName>Invoice issue date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-021">
+		<TermName>Invoice type code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-StatusLine">
+		<TermName>Clarification information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-015">
+		<TermName>Clarification code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-015-Action">
+		<TermName>Action</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-015-Reason">
+		<TermName>Reason</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir111-016">
+		<TermName>Clarification description</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Condition">
+		<TermName>Details</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Sender">
+		<TermName>SenderParty</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Receiver">
+		<TermName>Receiver Party</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Buyer">
+		<TermName>Buyer Party</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-Seller">F
+		<TermName>Seller Party</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-PartyID">
+		<TermName>Party ID</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="InvResp-EndPointID">
+		<TermName>EndPointID</TermName>
+	</BusinessTerm>
+	
+	
+	<!--Catalogue-->
+	<BusinessTerm id="tir19-002">
+		<TermName>Specification identification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-001">
+		<TermName>Business process type identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-003">
+		<TermName>Catalogue identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-047">
+		<TermName>Catalogue action code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-005">
+		<TermName>Catalogue name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-006">
+		<TermName>Catalogue issue date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-004">
+		<TermName>Catalogue version</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-007">
+		<TermName>Period start date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-008">
+		<TermName>Period end date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-028">
+		<TermName>Contract identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-019">
+		<TermName>Source catalogue identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-009">
+		<TermName>Provider party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-010">
+		<TermName>Catalogue Provider identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031">
+		<TermName>Provider Postal Address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029a">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029b">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029c">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029d">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029e">
+		<TermName>Country Subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029f">
+		<TermName>Catalogue Provider Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-011">
+		<TermName>Provider legal registration name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p028a">
+		<TermName>Provider legal registration identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p028c">
+		<TermName>Provider legal registration city</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p028d">
+		<TermName>Catalogue Provider Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-012">
+		<TermName>Reciever party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-013">
+		<TermName>Catalogue receiver identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p029">
+		<TermName>Postal address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031a">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031b">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031c">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031d">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031e">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p031f">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-014">
+		<TermName>Receiver legal registration name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p030a">
+		<TermName>Receiver legal registration identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p030c">
+		<TermName>Receiver legal registration city</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p030d">
+		<TermName>Receiver legal registration country</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-015">
+		<TermName>Supplier party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-016">
+		<TermName>Catalogue supplier identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-017">
+		<TermName>Catalogue supplier trading name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-021">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-022">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-023">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-024">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-025">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-026">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-027">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-030">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-031">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-054">
+		<TermName>Customer party electronic address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-055">
+		<TermName>Catalogue customer identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-079">
+		<TermName>Catalogue customer trading name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p041">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p042">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p043">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p044">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p045">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p047">
+		<TermName>Address line 3</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p046">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-080">
+		<TermName>Contact person name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-082">
+		<TermName>Contact telephone number</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-083">
+		<TermName>Contact email address</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p019">
+		<TermName>General payment conditions</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-032">
+		<TermName>Line identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-033">
+		<TermName>Line action code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-034">
+		<TermName>Orderable indicator</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-035">
+		<TermName>Orderable unit</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-061">
+		<TermName>Item net quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-037">
+		<TermName>Order quantity increment</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-038">
+		<TermName>Minimum order quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-039">
+		<TermName>Maximum order quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-040">
+		<TermName>Line warranty information</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-102">
+		<TermName>Packaging level</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-041">
+		<TermName>Period start date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-042">
+		<TermName>Period end date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-043">
+		<TermName>Standardized unit price</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-044">
+		<TermName>Standard unit quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-045">
+		<TermName>Component related item</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-046">
+		<TermName>Component related item quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-118">
+		<TermName>Accessory related item</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-119">
+		<TermName>Accessory related item quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-048">
+		<TermName>Required related item</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-049">
+		<TermName>Required related item quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-120">
+		<TermName>Replaced related item</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-121">
+		<TermName>Replaced related item quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-053">
+		<TermName>Price lead time</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p025">
+		<TermName>Quantity threshold</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p026">
+		<TermName>Quantity ceiling</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-108">
+		<TermName>Address line 1</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-109">
+		<TermName>Address line 2</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-110">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-060">
+		<TermName>City</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-111">
+		<TermName>Post code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-062">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-112">
+		<TermName>Country subdivision</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-063">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-113">
+		<TermName>Country code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-051">
+		<TermName>Item price</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p024">
+		<TermName>Item price base quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-093">
+		<TermName>Price type</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p035">
+		<TermName>OrderableUnit FactorRate</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-056">
+		<TermName>Period start date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-057">
+		<TermName>Period end date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-067">
+		<TermName>Item description</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-066">
+		<TermName>Packed quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-036">
+		<TermName>Consumable unit quantity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-078">
+		<TermName>Item name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-064">
+		<TermName>Item key words</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p018">
+		<TermName>Brand name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p040">
+		<TermName>Buyers item identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-091">
+		<TermName>The Sellers item identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-114">
+		<TermName>Manufacturers item identifer</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-092">
+		<TermName>Item standard identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-105">
+		<TermName>Attachment ID</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-086a">
+		<TermName>External Item Specifications Type</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-106">
+		<TermName>Attached item description</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-107">
+		<TermName>Attached object</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-086">
+		<TermName>External item specifications</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-071">
+		<TermName>Item origin country</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-069">
+		<TermName>Item classification code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p027">
+		<TermName>Contracted item indicator</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-072">
+		<TermName>Hazardous item UNDG code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-073">
+		<TermName>Haszardous hazard class Identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-094">
+		<TermName>Item TAX category code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-050">
+		<TermName>Item TAX precentage</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p048">
+		<TermName>Item TAX scheme</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-076">
+		<TermName>Item property name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p039">
+		<TermName>Item property code</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-077">
+		<TermName>Item property value</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-070">
+		<TermName>Item property unit of measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-103">
+		<TermName>Property classification</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-075">
+		<TermName>Manufacturer party name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-058">
+		<TermName>Item best before date</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-059">
+		<TermName>Item batch identifier</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-087">
+		<TermName>Item label name</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-089">
+		<TermName>Item label type</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-088">
+		<TermName>Item label value</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-090">
+		<TermName>Item label reference</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-104">
+		<TermName>Attribute Id</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-098">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-099">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-100">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-101">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p037">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p017">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p016">
+		<TermName>Measure</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-p038">
+		<TermName>Dimension description</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-115">
+		<TermName>Minimum storage temperature or minimum Storage Humidity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OP-T19-015">
+		<TermName>Minimum storage temperature or minimum Storage Humidity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-116">
+		<TermName>Maximum storage temperature or maximum Storage Humidity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="OP-T19-014">
+		<TermName>Maximum storage temperature or maximum Storage Humidity</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-ReceiverParty">
+		<TermName>Catalogue Receiver</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-ProviderParty">
+		<TermName>Catalogue Provider</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-catalogueline">
+		<TermName>Catalogue Item Details</TermName>
+	</BusinessTerm>
+	<BusinessTerm id="tir19-additionalitemproperty">
+		<TermName>Additional Item Property</TermName>
+	</BusinessTerm>
 </SemanticModel>
